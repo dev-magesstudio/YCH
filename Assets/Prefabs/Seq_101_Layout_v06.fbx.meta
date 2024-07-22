@@ -1,0 +1,354 @@
+fileFormatVersion: 2
+guid: 9cafc75926e854654acacf62e8022d89
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bush01_SRF
+    second: {fileID: 2100000, guid: 459c09a0ea2a14b6a931a5a57f41a116, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bush03_SRF
+    second: {fileID: 2100000, guid: 01a021c7ca8c040e995404f9aa9a1b7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bush04_SRF
+    second: {fileID: 2100000, guid: 12afa7eb6a6d74beb93b9a1aac689d24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bush05_SRF
+    second: {fileID: 2100000, guid: cbbfd56ca0cf7474c91f2ebc9fc2bf50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GoldenBox_SRF
+    second: {fileID: 2100000, guid: 742d680e7a4634a4ab2a63936a384527, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_001
+    second: {fileID: 2100000, guid: b845e291618a4445f8907b74f50fd230, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_002
+    second: {fileID: 2100000, guid: 9eb786629224c43f1a815d957abda046, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Road_A
+    second: {fileID: 2100000, guid: 90090f8f305b64d4e99e3b3498f9d040, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StreetLamp_A
+    second: {fileID: 2100000, guid: 0b07de57fc2ac45448be2751b5979a58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreeLP_B_Bark
+    second: {fileID: 2100000, guid: 0374894e973824b35bbb2fc69f4bfd68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreeLP_B_Leaves
+    second: {fileID: 2100000, guid: fbd1d12efc9ea45b6a71de7237be190e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Van_SRF
+    second: {fileID: 2100000, guid: b17cfce363ef747b9b76bfc35e2dc989, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree2_bark
+    second: {fileID: 2100000, guid: 2cd37f72618a54f58bca8b6f13768929, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree2_leaf
+    second: {fileID: 2100000, guid: 1e133deb153d24f0fb62a7eff38789f8, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BlackWalnutTree_Bark_BaseMap
+    second: {fileID: 2800000, guid: 2f89abdb3087249369a349a9c659d906, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BlackWalnutTree_Bark_Normal
+    second: {fileID: 2800000, guid: e107fc6277f24425392871cd8c22c5c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BlackWalnutTree_Spring_BaseMap
+    second: {fileID: 2800000, guid: ecce982d52a2d4aac9a1b3f1f3de704a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BlackWalnutTree_Spring_Normal
+    second: {fileID: 2800000, guid: 8bcbed1d9018a46b8a96926b09c9bc41, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GoldenBox_GoldenBox_SRF_AlbedoTransparency
+    second: {fileID: 2800000, guid: 1f35514a06fcf44369cc4fa2bce4eb2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GoldenBox_GoldenBox_SRF_MetallicSmoothness
+    second: {fileID: 2800000, guid: db25d20c1e25e4837a7e3febd9e39707, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GoldenBox_GoldenBox_SRF_Normal
+    second: {fileID: 2800000, guid: 330d4bbd56ae8476d8a122abb8eb6d52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Seq1_roadMain_DefaultMaterial_Diffuse
+    second: {fileID: 2800000, guid: 184017cbc9c694a1fb7234b3330f8ba2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Seq1_roadMain_DefaultMaterial_Normal
+    second: {fileID: 2800000, guid: 3d80610aa8ccb4e668648a20284f27bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Seq1_roadMain_DefaultMaterial_Specular
+    second: {fileID: 2800000, guid: 6c6ceaa5e1092454a9e61cfe4ec471fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: StreetLamp2Concrete_basecolor
+    second: {fileID: 2800000, guid: 5d08c46b0f15e42df9d57f89cbe4949c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: StreetLamp2Concrete_emissive
+    second: {fileID: 2800000, guid: d575867b458a7416bb5183f8186db707, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: StreetLamp2Concrete_metallic
+    second: {fileID: 2800000, guid: cebc3c68128cd4025a9f2da3afeef7d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: StreetLamp2Concrete_normal
+    second: {fileID: 2800000, guid: 333d5882923c74b42b96fb9c43ac2055, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: StreetLamp2Concrete_roughness
+    second: {fileID: 2800000, guid: 960606c7a92a343f3800d5c2e742ed73, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bush01_d
+    second: {fileID: 2800000, guid: a35c44efc7c044282965a3df5c999ab7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bush01_n
+    second: {fileID: 2800000, guid: 99976a150cceb4964b8aa8db481efd9c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bush03_d
+    second: {fileID: 2800000, guid: 5a99df22d91a34a9f82413d520080df0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bush03_n
+    second: {fileID: 2800000, guid: c8ce9df4347c04d98beea2191b24560c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bush04_ao
+    second: {fileID: 2800000, guid: 4b3b847652d284f86bc6b19963763411, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bush04_d
+    second: {fileID: 2800000, guid: 8e8c3ed37e4614ebf88361100f5083a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bush05_d
+    second: {fileID: 2800000, guid: 6526b69d94e8349e1850ff3b9d6187d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bush05_n
+    second: {fileID: 2800000, guid: 7dc4b08a5db2a45728445261367b8d52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Van_v01_Van_SRF_BaseColor
+    second: {fileID: 2800000, guid: cab4d37f670ec4d67aef7165d191d590, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Van_v01_Van_SRF_Metallic
+    second: {fileID: 2800000, guid: 0e2e7b2eb30dd4075a5ddd7485d6341d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Van_v01_Van_SRF_Normal
+    second: {fileID: 2800000, guid: 08bfb10da73484128ba8ec66e4baf471, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Van_v01_Van_SRF_Roughness
+    second: {fileID: 2800000, guid: 021e0daad3b6d44bc8340eb72ba1e354, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree1_bark_diffuse
+    second: {fileID: 2800000, guid: 94519b5a38c1648e884fd97c75c0d8e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree1_bark_normal
+    second: {fileID: 2800000, guid: b0af8e796eee64bdb8d0483db14da496, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree1_leaf_diffuse
+    second: {fileID: 2800000, guid: 0edf117ee202747b9a090a45b4b225bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree1_leaf_normal
+    second: {fileID: 2800000, guid: b3b1d71110b2745ccaeebdd3b06e6aa0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree2_bark_diffuse
+    second: {fileID: 2800000, guid: 9c6ada8b4b5c048fd890a40c5de74826, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree2_bark_normal
+    second: {fileID: 2800000, guid: 96dbfc66e31cd40598cc20ee7e55bd9c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree2_leaf_diffuse
+    second: {fileID: 2800000, guid: 0dbf59678f008480db5e4c4fb99a699f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree2_leaf_normal
+    second: {fileID: 2800000, guid: 4789425460f944530be59c0e34a52e75, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
