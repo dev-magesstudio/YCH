@@ -10,6 +10,7 @@ public class TimelineManager : MonoBehaviour
    public List<PlayableDirector> timelines = new List<PlayableDirector>();
    public List<GameObject> timelineGameObjects = new List<GameObject>();
    private int currentTimelineIndex = 0;
+   
 
     void OnEnable()
     {
