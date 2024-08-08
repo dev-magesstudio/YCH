@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class LogoShaderController : MonoBehaviour
 {
@@ -11,6 +12,10 @@ public class LogoShaderController : MonoBehaviour
     public float endThreshold = 1.5f;
     public float duration = 5f;
 
+    public UnityEvent eventOnCompletion;
+    public AudioSource audioSource;
+    
+
 private Coroutine thresholdCoroutine;
 
     // Start is called before the first frame update
@@ -18,6 +23,13 @@ private Coroutine thresholdCoroutine;
     {
         if(material.HasProperty(thresholdProperty)){
             thresholdCoroutine = StartCoroutine(ChangeThresholdOverTime(startThreshold, endThreshold, duration));
+
+            /*if(audioSource != null){
+                audioSource.Play();
+            }*/
+        }
+        else{
+            Debug.Log("No such property in material found!");
         }
     }
 
@@ -39,7 +51,10 @@ private Coroutine thresholdCoroutine;
         // Ensure the final value is set
         material.SetFloat(thresholdProperty, endValue);
 
-        SceneManager.LoadScene(2);
+        /*if(eventOnCompletion!=null){
+            eventOnCompletion.Invoke();
+        }*/
+        //SceneManager.LoadScene(2);
     }
 
 
