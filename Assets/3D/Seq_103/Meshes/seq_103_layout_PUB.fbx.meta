@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 51a821b7283309240873f68ec35ae11a
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asp_Containers_A
+    second: {fileID: 2100000, guid: 0895378859b077340b71c19aebf24e12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asp_Containers_B
+    second: {fileID: 2100000, guid: e1c5c6df40b99d643b3ad73f1a7326e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asp_ParkingCloseup
+    second: {fileID: 2100000, guid: 43798b305cb121143b515f770e123b99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asp_SCCity
+    second: {fileID: 2100000, guid: 17853766c7f9c7842a890990921896db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asp_Warehouse
+    second: {fileID: 2100000, guid: 43f94328f30663048a90d9fb8889e549, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asp_WarehouseCorner
+    second: {fileID: 2100000, guid: 9a62c4eee6c77fb4a8fbca06a81281b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CS_CurbeBase
+    second: {fileID: 2100000, guid: f732f6eafa1dfb349b17531cb59e210a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CS_Glass
+    second: {fileID: 2100000, guid: c1d15eb59b5394e4da3ba49b8108da5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CS_MetalA
+    second: {fileID: 2100000, guid: 0dd14ccf3d94c84429ce50ea5a147e5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CS_MetalB
+    second: {fileID: 2100000, guid: d3bb92c562efb824ea68fce393f86243, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CS_Pots
+    second: {fileID: 2100000, guid: 27983103855d36c47b898ef825f8848b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarShade
+    second: {fileID: 2100000, guid: d89a7edb53e27fa4b80561e5566404fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ExternalGrass
+    second: {fileID: 2100000, guid: 508ce364dbc6f1b4eb34704e2973efff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_GrassLight
+    second: {fileID: 2100000, guid: 03ce945ea23ff4d44ae00f98c58c33bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_GrassPark
+    second: {fileID: 2100000, guid: 852737e189f3b6a41a1fdb9c98d361a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GrayGen_A
+    second: {fileID: 2100000, guid: 9fc4f4361f18e9142b43d4a23b957ef0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Prk_FlooLines
+    second: {fileID: 2100000, guid: 77166a04b0675bd4f855bea05ef04df0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Prk_FloorBase
+    second: {fileID: 2100000, guid: f9f8e3b100d91f64eb645ead5519c3b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: River
+    second: {fileID: 2100000, guid: 7c65851e656bf524088380ff03857fa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Road_Lines
+    second: {fileID: 2100000, guid: 444a1cb128a1eed499d2360b80eebe7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Road_LinesCross
+    second: {fileID: 2100000, guid: d925962000fa2f54e808dbce95a5b0e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roads_Columns
+    second: {fileID: 2100000, guid: d8eb116df20486e4684b3cb587ce11c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roads_Interior
+    second: {fileID: 2100000, guid: b4ef1097caac27f49919d8a146ef4730, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roads_Outer
+    second: {fileID: 2100000, guid: 81e6b34339926a84681bffc56fdfc271, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roads_Outer_Curve
+    second: {fileID: 2100000, guid: 80ad1742c95c2394d9794c9c9da93ce9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sidewalk_Base
+    second: {fileID: 2100000, guid: 80c026594a4a7a84c89c9792b54bbaa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sidewalk_Curbe
+    second: {fileID: 2100000, guid: 8b5a9ceaf31b1b94794ddcff76d42965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sidewalk_CurbeB
+    second: {fileID: 2100000, guid: 448524e9a2518ed40b8ffc61471645eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sidewalk_Grass
+    second: {fileID: 2100000, guid: a233861639ec9274e8987b7a1622f92d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TL_Light
+    second: {fileID: 2100000, guid: 1551f6682889af740ae83a330c3df86e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TL_Metal
+    second: {fileID: 2100000, guid: b43c4c4230d1aa042aad386f4a59cd44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TL_PBox
+    second: {fileID: 2100000, guid: fd6895355bb0482419e3437c63099145, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TL_Pedes
+    second: {fileID: 2100000, guid: 3e5199845c29acb47a6e40142c143e55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TL_Pole
+    second: {fileID: 2100000, guid: f664edf638af34148a7e046d182439c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TL_Traffic Light
+    second: {fileID: 2100000, guid: fffa4973d5abcd145974d9c3501de6e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trm_BackBuildings
+    second: {fileID: 2100000, guid: 7dab97e1ef5a8834888bb4fdbeb84ab3, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
