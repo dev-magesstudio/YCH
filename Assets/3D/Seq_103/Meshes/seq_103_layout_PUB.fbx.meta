@@ -67,6 +67,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: ContainersGround
+    second: {fileID: 2100000, guid: 81c81e4d446ff8a4c9a55f9fffd408b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: ExternalGrass
     second: {fileID: 2100000, guid: 508ce364dbc6f1b4eb34704e2973efff, type: 2}
   - first:
@@ -94,6 +99,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Prk_FloorBase
     second: {fileID: 2100000, guid: f9f8e3b100d91f64eb645ead5519c3b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RawBuilding_01
+    second: {fileID: 2100000, guid: cd98c7cd5ac323c4d97349e268397328, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -182,8 +192,43 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: TTSmall
+    second: {fileID: 2100000, guid: fcf16d03769d2e040880d9669f5da708, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Trm_BackBuildings
     second: {fileID: 2100000, guid: 7dab97e1ef5a8834888bb4fdbeb84ab3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: build_01
+    second: {fileID: 2100000, guid: 47432600fafbfa04f941c58621e6b4e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concrete_02.1
+    second: {fileID: 2100000, guid: b8b7f173582666f45bf44c809034279d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concrete_02.2
+    second: {fileID: 2100000, guid: 986f844b1b0efc54a8a6f02afa41b36e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concrete_fine
+    second: {fileID: 2100000, guid: 23fa27aeb8b0ef140957f7cda7492084, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concrete_fine.1
+    second: {fileID: 2100000, guid: d6536636678eae042a3f577ee2967d7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rooftop_01
+    second: {fileID: 2100000, guid: f5007a92595562d4199618422f09eafe, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
