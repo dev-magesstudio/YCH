@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 4f0bee8a25ffefa4cb8906b09906cfe6
+guid: 513d942487c5d43d784c064600b0e9c2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: VietnamHighlihgt
-    second: {fileID: 2100000, guid: 279ceeda1c8ea854fbd32286a17c50a2, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 4bd11ed40a54e694b8b322e9ce25bd40
+guid: 691be5984b5b84502976e17f50e45c62
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: YunnanHighlihgt
-    second: {fileID: 2100000, guid: 54e5e0ac59203dd41adb51796ea59119, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
