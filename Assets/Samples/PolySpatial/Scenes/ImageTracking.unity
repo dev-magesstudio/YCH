@@ -947,7 +947,7 @@ MonoBehaviour:
   m_ImageManager: {fileID: 2115460897}
   m_ImageLibrary: {fileID: 11400000, guid: 7702cc4ab71e64abe9f0b9b0689e025d, type: 2}
   m_PrefabsToSpawn:
-  - {fileID: 3760950224699211663, guid: b27297f391b724b78806477925ad42a4, type: 3}
+  - {fileID: 7040103335054109797, guid: ea4d21c6f63c176409e9a9fdba0cd5a2, type: 3}
   - {fileID: 8803489701199201814, guid: 7626c8779b18cab428a2648a1c2ddff1, type: 3}
 --- !u!4 &1913444680
 Transform:
@@ -971,7 +971,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913444678}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27bbbb377e1ac4eb18d3b2f652c36bd3, type: 3}
   m_Name: 
@@ -1132,7 +1132,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026256746}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1527,8 +1527,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 203844589}
   - {fileID: 2115460895}
-  - {fileID: 248604195}
   - {fileID: 2026256748}
+  - {fileID: 248604195}
   - {fileID: 1913444680}
   - {fileID: 1514327207}
   - {fileID: 221667016}

@@ -1,16 +1,14 @@
-    using System.Collections;
-    using System.Collections.Generic;
-    using UnityEngine;
-    using UnityEngine.Playables;
-    using UnityEngine.Timeline;
-    using UnityEngine.Events;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Playables;
+using UnityEngine.Timeline;
 
 public class TimelineManager : MonoBehaviour
 {
-   public List<PlayableDirector> timelines = new List<PlayableDirector>();
-   public List<GameObject> timelineGameObjects = new List<GameObject>();
-   private int currentTimelineIndex = 0;
-   
+    public static TimelineManager instance;
+    public List<PlayableDirector> timelines = new List<PlayableDirector>();
+    public List<GameObject> timelineGameObjects = new List<GameObject>();
+    private int currentTimelineIndex = 0;
 
     void OnEnable()
     {
@@ -34,7 +32,7 @@ public class TimelineManager : MonoBehaviour
         }
     }
 
-     private void OnTimelineStopped(PlayableDirector director)
+    private void OnTimelineStopped(PlayableDirector director)
     {
         if (currentTimelineIndex < timelineGameObjects.Count)
         {
@@ -91,5 +89,17 @@ public class TimelineManager : MonoBehaviour
             }
         }
     }
-    
+
+    // Method to play a specific audio clip on a GameObject
+    public void PlayAudio(int gameObjectIndex, int audioClipIndex)
+    {
+        if (gameObjectIndex < timelineGameObjects.Count && timelineGameObjects[gameObjectIndex] != null)
+        {
+            AudioSource[] audioSources = timelineGameObjects[gameObjectIndex].GetComponents<AudioSource>();
+            if (audioSources != null && audioClipIndex < audioSources.Length)
+            {
+                audioSources[audioClipIndex].Play();
+            }
+        }
+    }
 }

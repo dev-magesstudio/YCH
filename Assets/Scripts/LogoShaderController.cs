@@ -24,9 +24,9 @@ private Coroutine thresholdCoroutine;
         if(material.HasProperty(thresholdProperty)){
             thresholdCoroutine = StartCoroutine(ChangeThresholdOverTime(startThreshold, endThreshold, duration));
 
-            /*if(audioSource != null){
+            if(audioSource != null){
                 audioSource.Play();
-            }*/
+            }
         }
         else{
             Debug.Log("No such property in material found!");
@@ -51,9 +51,9 @@ private Coroutine thresholdCoroutine;
         // Ensure the final value is set
         material.SetFloat(thresholdProperty, endValue);
 
-        /*if(eventOnCompletion!=null){
+        if(eventOnCompletion!=null){
             eventOnCompletion.Invoke();
-        }*/
+        }
         //SceneManager.LoadScene(2);
     }
 

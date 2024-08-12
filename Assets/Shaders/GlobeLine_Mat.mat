@@ -48,7 +48,7 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _VisibilityThreshold: -2.260822
+    - _VisibilityThreshold: -5
     m_Colors:
     - _Color: {r: 0.490196, g: 0.90588236, b: 0.90588236, a: 1}
   m_BuildTextureStacks: []
