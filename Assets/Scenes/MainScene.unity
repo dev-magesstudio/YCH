@@ -16181,6 +16181,7 @@ GameObject:
   - component: {fileID: 2395089467320817864}
   - component: {fileID: 5454414094160265687}
   - component: {fileID: 5454414094160265686}
+  - component: {fileID: 5454414094160265688}
   m_Layer: 0
   m_Name: Seq_102_Updated2
   m_TagString: Untagged
@@ -16305,6 +16306,51 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5454414094160265688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5454414094160265685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 31d9fd81e3e5449fb9462215a5425551, type: 2}
+    - {fileID: 11400000, guid: d8ef4d4aeeebc4123917c3a317c0e2e3, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5454414094160265686}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: set_volume
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0.3
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5454414094160265686}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: set_volume
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0.8
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &5484119213713677833
 Transform:
   m_ObjectHideFlags: 0
@@ -25106,11 +25152,13 @@ PlayableDirector:
   - key: {fileID: 5561272184549246701, guid: 78f2851a9f8969348b27ad74e7ddecf3, type: 2}
     value: {fileID: 5454414094160265687}
   - key: {fileID: 1905281794159923165, guid: 78f2851a9f8969348b27ad74e7ddecf3, type: 2}
-    value: {fileID: 5454414094160265686}
+    value: {fileID: 0}
   - key: {fileID: 2847542497093586302, guid: 78f2851a9f8969348b27ad74e7ddecf3, type: 2}
     value: {fileID: 5454414094160265686}
   - key: {fileID: -9218160139697377381, guid: 78f2851a9f8969348b27ad74e7ddecf3, type: 2}
     value: {fileID: 8663021018336368447}
+  - key: {fileID: 5734084823656327483, guid: 78f2851a9f8969348b27ad74e7ddecf3, type: 2}
+    value: {fileID: 7253351290334852999}
   m_ExposedReferences:
     m_References:
     - a569c8f57cdc44a4e992651525ac7e7d: {fileID: 0}
