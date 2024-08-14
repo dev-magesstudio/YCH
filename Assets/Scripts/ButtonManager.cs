@@ -16,7 +16,7 @@ public class ButtonManager : HubButton
         if(buttonClickAudio != null){
             buttonClickAudio.Play();
         }
-
+        //eventOnButtonClick.Invoke();    
         StartCoroutine(InvokeEvent());
 
     }
