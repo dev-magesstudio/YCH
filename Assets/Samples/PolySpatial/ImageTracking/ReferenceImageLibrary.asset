@@ -27,3 +27,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: one
     m_Texture: {fileID: 2800000, guid: 0c2a88ee2b36e4c9a81949c5b3b07d1e, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5032284007738486901
+      m_GuidHigh: 12719558239851779487
+    m_SerializedTextureGuid:
+      m_GuidLow: 3807614367784430180
+      m_GuidHigh: 9916987423784482953
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: two
+    m_Texture: {fileID: 2800000, guid: 0976ea645d1834d789b8b0fc8437a089, type: 3}
