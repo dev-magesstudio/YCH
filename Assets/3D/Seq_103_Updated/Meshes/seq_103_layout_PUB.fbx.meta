@@ -52,6 +52,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Birch.003
+    second: {fileID: 2100000, guid: da8872e5e72b49241b5b2ee14d047f2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: CS_CurbeBase
     second: {fileID: 2100000, guid: f732f6eafa1dfb349b17531cb59e210a, type: 2}
   - first:
@@ -112,6 +117,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Maple.002
+    second: {fileID: 2100000, guid: ef389209093887649818f48f7574684f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Maple.003
+    second: {fileID: 2100000, guid: abdce5f38d3a397479e0be5abd39e17f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Oak
     second: {fileID: 2100000, guid: d9f87dc6712561741b92f30417fababb, type: 2}
   - first:
@@ -119,6 +134,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Oak.002
     second: {fileID: 2100000, guid: c6a6797855006be4690f06296816b1fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak.003
+    second: {fileID: 2100000, guid: 5a1da9291fa76b94a9d6e4262d1531c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak.004
+    second: {fileID: 2100000, guid: 6d03463fabd4c8748bb9a9d6dc8b895c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -192,6 +217,61 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Rowanberry.003
+    second: {fileID: 2100000, guid: 13d9e44af88fdba4fa52413d97a97937, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rowanberry.004
+    second: {fileID: 2100000, guid: 78152ea0d252d2248b577080bc818a08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCCO_Bases
+    second: {fileID: 2100000, guid: b47a8999521fc1042a084ba97b47b3b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCCO_Columns
+    second: {fileID: 2100000, guid: 1bdee26e30e96fb4c972905d9a608d1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCCO_DecoWalls
+    second: {fileID: 2100000, guid: dfd0db7ec8bc3b24b9c7db6cbc6d0c2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCCO_SolarPanelBase
+    second: {fileID: 2100000, guid: e613cde5b59e72a449d59cb29b121722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCC_Corners
+    second: {fileID: 2100000, guid: 7b213f8e5ff8ea84184de62fc100a9e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCC_Platform
+    second: {fileID: 2100000, guid: 409bad87bb658d740a0bcfa8db767d2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCC_SolarPanelBase
+    second: {fileID: 2100000, guid: f046c6281752e0f43a1322d6608537c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCC_WallPanels
+    second: {fileID: 2100000, guid: 6cd254db63b8598449db70aa58a85967, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCC_internal
+    second: {fileID: 2100000, guid: 03e29aa7d84ae49439be037e004563b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Sidewalk_Base
     second: {fileID: 2100000, guid: 80c026594a4a7a84c89c9792b54bbaa8, type: 2}
   - first:
@@ -209,6 +289,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Sidewalk_Grass
     second: {fileID: 2100000, guid: a233861639ec9274e8987b7a1622f92d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SolarPanel_LP
+    second: {fileID: 2100000, guid: 71d14f46900997145b59fcc8b68c3714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SolarPanel_LP.001
+    second: {fileID: 2100000, guid: ae6703bbdd4d7e146a37369c878e7af2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
