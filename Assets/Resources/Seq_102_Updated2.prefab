@@ -5946,7 +5946,7 @@ GameObject:
   - component: {fileID: 5633629404965596590}
   - component: {fileID: 7893412894585021368}
   - component: {fileID: 7264123865920769281}
-  - component: {fileID: 4741169170279973198}
+  - component: {fileID: 7474478659510161687}
   m_Layer: 0
   m_Name: Seq_102_Updated2
   m_TagString: 3DModel
@@ -5988,7 +5988,7 @@ Animator:
   m_GameObject: {fileID: 7554552754608069655}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5e29080b69bb3429d962313c2e7188c5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -6113,6 +6113,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: d8ef4d4aeeebc4123917c3a317c0e2e3, type: 2}
     - {fileID: 11400000, guid: af925aadcc3b342e9bf93206b24df55a, type: 2}
     - {fileID: 11400000, guid: 59c2f5d563dc245c280a35bbbf98060d, type: 2}
+    - {fileID: 11400000, guid: 775e47f4b91e44cf9b63907b8ac2f236, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -6144,13 +6145,14 @@ MonoBehaviour:
           m_CallState: 2
     - m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 4741169170279973198}
+        - m_Target: {fileID: 7474478659510161687}
           m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
           m_MethodName: LoadPrefab
-          m_Mode: 3
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 239268058366559734, guid: dbd7686aa11cb446d8f9cb769607c370,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 1
             m_FloatArgument: 0
             m_StringArgument: 
@@ -6158,7 +6160,7 @@ MonoBehaviour:
           m_CallState: 2
     - m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 4741169170279973198}
+        - m_Target: {fileID: 7474478659510161687}
           m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
           m_MethodName: DestroyPrefab
           m_Mode: 1
@@ -6170,7 +6172,21 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &4741169170279973198
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: ModelInstantiatorManager, Assembly-CSharp
+          m_MethodName: IncreaseModelCount
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &7474478659510161687
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6182,7 +6198,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4a9fb07d52b44c5cb86942e3a295662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabsToLoad: []
 --- !u!1 &7705643810408101643
 GameObject:
   m_ObjectHideFlags: 0
