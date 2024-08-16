@@ -4,18 +4,24 @@ using UnityEngine;
 
 public class VolumeCameraPositioner : MonoBehaviour
 {
-    public Vector3 targetPos = new Vector3(0,1,-10);
-    //public Vector3 targetRot = new Vector3(0,0,0);
-    // Start is called before the first frame update
+    public GameObject polySpatialVolumeCameraPrefab;  // Assign the PolySpatial Volume Camera prefab in the inspector
+    public float distanceInFrontOfUser = 2.0f;        // Set the distance to place the camera in front of the user
+
     void Start()
     {
-        transform.position = targetPos;
-
+        LaunchPolySpatialVolumeCamera();
     }
 
-    // Update is called once per frame
-    void Update()
+    void LaunchPolySpatialVolumeCamera()
     {
-        
+        // Get the main camera's position and forward direction
+        Vector3 userPosition = Camera.main.transform.position;
+        Vector3 userForward = Camera.main.transform.forward;
+
+        // Calculate the position in front of the user
+        Vector3 cameraPosition = userPosition + userForward * distanceInFrontOfUser;
+
+        // Instantiate the PolySpatial Volume Camera at the calculated position
+        Instantiate(polySpatialVolumeCameraPrefab, cameraPosition, Quaternion.LookRotation(userForward));
     }
 }
