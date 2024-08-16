@@ -5490,7 +5490,7 @@ GameObject:
   - component: {fileID: 733366920}
   m_Layer: 0
   m_Name: BackgroundSound
-  m_TagString: Untagged
+  m_TagString: BackgroundSound
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5509,7 +5509,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -5551,7 +5551,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.498
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -16065,6 +16065,7 @@ GameObject:
   - component: {fileID: 2007008999}
   - component: {fileID: 2007009000}
   - component: {fileID: 2007009001}
+  - component: {fileID: 2007009002}
   m_Layer: 0
   m_Name: Seq_101
   m_TagString: 3DModel
@@ -16226,14 +16227,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31d9fd81e3e5449fb9462215a5425551, type: 2}
     - {fileID: 11400000, guid: af925aadcc3b342e9bf93206b24df55a, type: 2}
     - {fileID: 11400000, guid: 59c2f5d563dc245c280a35bbbf98060d, type: 2}
-    - {fileID: 11400000, guid: 775e47f4b91e44cf9b63907b8ac2f236, type: 2}
+    - {fileID: 11400000, guid: 97f78b82d5c334e9783eb276833e36dc, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2007008999}
-          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-          m_MethodName: set_volume
-          m_Mode: 4
+        - m_Target: {fileID: 2007009002}
+          m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+          m_MethodName: DecreaseVolume
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -16273,9 +16274,9 @@ MonoBehaviour:
           m_CallState: 2
     - m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: ModelInstantiatorManager, Assembly-CSharp
-          m_MethodName: IncreaseModelCount
+        - m_Target: {fileID: 2007009002}
+          m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+          m_MethodName: PlaySound
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -16295,6 +16296,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4a9fb07d52b44c5cb86942e3a295662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2007009002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007008996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0a6c9945638847cdbbca6a2756461aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5186916255791745958

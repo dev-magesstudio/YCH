@@ -2370,7 +2370,8 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: 12_VietnamSuperportAims
   m_Markers:
-    m_Objects: []
+    m_Objects:
+    - {fileID: 3303002373841380654}
   m_TrackProperties:
     volume: 1
     stereoPan: 0
@@ -2665,6 +2666,22 @@ MonoBehaviour:
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
+--- !u!114 &3303002373841380654
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 71.48333333333333
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: d8ef4d4aeeebc4123917c3a317c0e2e3, type: 2}
 --- !u!114 &3432011109644437285
 MonoBehaviour:
   m_ObjectHideFlags: 1
