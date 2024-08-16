@@ -96,7 +96,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
-    - _VisibilityThreshold: 6.880575
+    - _VisibilityThreshold: 0.7095647
     - _VisibiltyThreshold: 1
     - _ZWrite: 1
     m_Colors:
