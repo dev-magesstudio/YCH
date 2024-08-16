@@ -337,6 +337,26 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: TreeSP_A
+    second: {fileID: 2100000, guid: a38cf31a95678b045add20d85725204f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreeSP_B
+    second: {fileID: 2100000, guid: a5b10b642ce77e14cbaaa207ee647f32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreeSP_C
+    second: {fileID: 2100000, guid: c9535e49b8f18f2478cb04112d4e4e33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreeSP_D
+    second: {fileID: 2100000, guid: f8793fd5c834bfd4eb80949a0e1160ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Trm_BackBuildings
     second: {fileID: 2100000, guid: 7dab97e1ef5a8834888bb4fdbeb84ab3, type: 2}
   - first:
