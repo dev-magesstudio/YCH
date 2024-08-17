@@ -6226,7 +6226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0a6c9945638847cdbbca6a2756461aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
 --- !u!1 &7705643810408101643
 GameObject:
   m_ObjectHideFlags: 0
@@ -7736,8 +7735,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 996c8c3812a0c4fea8313a8efe36cadc, type: 2}
   thresholdProperty: _VisibilityThreshold
-  startThreshold: -1
-  endThreshold: 7
+  startThreshold: 0
+  endThreshold: 1
   duration: 1
   eventOnCompletion:
     m_PersistentCalls:
@@ -7888,8 +7887,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 996c8c3812a0c4fea8313a8efe36cadc, type: 2}
   thresholdProperty: _VisibilityThreshold
-  startThreshold: -1
-  endThreshold: 7
+  startThreshold: 0
+  endThreshold: 1
   duration: 1
   eventOnCompletion:
     m_PersistentCalls:
@@ -8034,8 +8033,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 996c8c3812a0c4fea8313a8efe36cadc, type: 2}
   thresholdProperty: _VisibilityThreshold
-  startThreshold: -1
-  endThreshold: 7
+  startThreshold: 0
+  endThreshold: 1
   duration: 1
   eventOnCompletion:
     m_PersistentCalls:
@@ -8180,8 +8179,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 996c8c3812a0c4fea8313a8efe36cadc, type: 2}
   thresholdProperty: _VisibilityThreshold
-  startThreshold: -1
-  endThreshold: 7
+  startThreshold: 0
+  endThreshold: 1
   duration: 1
   eventOnCompletion:
     m_PersistentCalls:
