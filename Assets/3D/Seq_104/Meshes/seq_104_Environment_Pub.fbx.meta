@@ -3,7 +3,327 @@ guid: 4f5eb7403c88f44f6880813d551b9174
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11 - Default
+    second: {fileID: 2100000, guid: 3377c4a58cf6749498b949d5cffd1b83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asp_Containers_B
+    second: {fileID: 2100000, guid: ac9577725b75b0a4ebc02ab5a4db54a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asp_ParkingCloseup
+    second: {fileID: 2100000, guid: ca7a43000c7c044419f016ad3e3e1d88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asp_SCCity
+    second: {fileID: 2100000, guid: bad56e53f2e3c964ab009d9f57fce6f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asp_Warehouse
+    second: {fileID: 2100000, guid: d58145e71c42afb48907eb3ef89c1cc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asp_WarehouseCorner
+    second: {fileID: 2100000, guid: 2b70720218f097e468f62242ef114bae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Birch
+    second: {fileID: 2100000, guid: b4ce015d0450eb94eb084e0167e50d37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Birch.001
+    second: {fileID: 2100000, guid: e594c7195e5e0ca4ea8f741070551e6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Birch.002
+    second: {fileID: 2100000, guid: 3af4393243344b343be725e81d79cf44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CS_CurbeBase
+    second: {fileID: 2100000, guid: f32ebbd31e2ed24448a23e37277020a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CS_Pots
+    second: {fileID: 2100000, guid: 4d3595a9cb7b34242be4adc3a738bc0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarShade
+    second: {fileID: 2100000, guid: 2bfb74c030a152a49b08df32218cdf8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ContainersGround
+    second: {fileID: 2100000, guid: 88392e22c7cb7ca40890ac6683022081, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EV fast charging station.001
+    second: {fileID: 2100000, guid: 5b84b2fa256ea754b9a9f7378036a1a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ExternalGrass
+    second: {fileID: 2100000, guid: a88d94b11c852e647a943f0d557f869f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_GrassLight
+    second: {fileID: 2100000, guid: d6d5f90a35d07204694e1875126b1666, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IndustrialBattery
+    second: {fileID: 2100000, guid: 4c338c10467703d409995302e3d65887, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Int_AirDucts.001
+    second: {fileID: 2100000, guid: e4a482be85adf9040b392283041b759d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Int_Pipes.001
+    second: {fileID: 2100000, guid: 04a758c1805e2f64bba3aaa3d3b7d1d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: InteriorEnv_GEN.001
+    second: {fileID: 2100000, guid: be70e347deb58994fa873deef5ad45f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Maple
+    second: {fileID: 2100000, guid: a83c1c210c8f12047bcf3267f8127199, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Maple.001
+    second: {fileID: 2100000, guid: 27d665a4a5a33c74bb34a6a561d83034, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Maple.004
+    second: {fileID: 2100000, guid: 2251d9b5e8c537b4cbba37edfd570ed4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak
+    second: {fileID: 2100000, guid: 66c9779a57b03804ab97e8ae4e3631d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak.001
+    second: {fileID: 2100000, guid: 49851ea575fdece419e5342339a6dd8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak.002
+    second: {fileID: 2100000, guid: 3ca4c4079b60efa48a7ee6d0cdf015c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pine
+    second: {fileID: 2100000, guid: 586c904897a81164ba2d5c87bd0c86db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pine.002
+    second: {fileID: 2100000, guid: de1749a955f24df4ebc9495a4b9b0755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Prk_FlooLines
+    second: {fileID: 2100000, guid: 2088820c52bf8b147a870f2f34ed23f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Prk_FloorBase
+    second: {fileID: 2100000, guid: 8a2b41b03bb53b94e9adb45248c420d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Road_Lines
+    second: {fileID: 2100000, guid: 6e2238956ce35654b999726a0633030c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Road_LinesCross
+    second: {fileID: 2100000, guid: 0dc7b6def0ac2ba40aa4c7ef06a8df8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roads_Interior
+    second: {fileID: 2100000, guid: 1c017629d56862846940cfd49ad3760b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roads_Outer
+    second: {fileID: 2100000, guid: 0af708d682ab70445b6831bc646d1463, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roads_Outer_Curve
+    second: {fileID: 2100000, guid: 21709fd21f6aeab4d919fb2f4e87b0a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rowanberry
+    second: {fileID: 2100000, guid: 0415b825667f1d541a1cf2f73ab146d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rowanberry.001
+    second: {fileID: 2100000, guid: a750d9ebaad8f124c85d89ea3681eb7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rowanberry.002
+    second: {fileID: 2100000, guid: aa5d2112301f690438887ca6cfa74f2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCCO_Bases.001
+    second: {fileID: 2100000, guid: f5a712610f52f11439c3368df19879ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCCO_Columns.001
+    second: {fileID: 2100000, guid: 391a0d1059b6fef4faed0acfbb7c94ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCCO_DecoWalls.001
+    second: {fileID: 2100000, guid: afe4dcfba3c120149beb8b96e4215779, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCCO_SolarPanelBase.001
+    second: {fileID: 2100000, guid: 17649b881ab3c1e4f96b1896ee802abd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCC_Corners.001
+    second: {fileID: 2100000, guid: 7e02426d5c9533945b539a403f711c4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCC_Platform.001
+    second: {fileID: 2100000, guid: aca7f7417b75a59468cd824c01e9c435, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCC_SolarPanelBase.001
+    second: {fileID: 2100000, guid: 618d3d53a4cd96e4a92b6c7ce16bbc9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCC_WallPanels.001
+    second: {fileID: 2100000, guid: 2e5cd43d302c87749982ed2a617b1eea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCC_internal.001
+    second: {fileID: 2100000, guid: 63a57e6f361b8dd4aa3f026199877140, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sidewalk_Base
+    second: {fileID: 2100000, guid: c9751d4483715834db2b3bd2350b4a1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sidewalk_Curbe
+    second: {fileID: 2100000, guid: 9ed81da65d75d7241881187ea42197b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sidewalk_CurbeB
+    second: {fileID: 2100000, guid: 4715c333bf042ff409960bb4463a8d47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sidewalk_Grass
+    second: {fileID: 2100000, guid: e30867a04b97f6a4b9df7271c64869c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SolarPanel_LP.002
+    second: {fileID: 2100000, guid: 6ddae166da445724f8d605ffe2020333, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SolarPanel_LP.003
+    second: {fileID: 2100000, guid: e451d57721106b44eb2569219b778ac0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TL_Light
+    second: {fileID: 2100000, guid: 91ede6755b771794896e40f33f101d0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TL_Metal
+    second: {fileID: 2100000, guid: 4d52995b2e732584f8dd46bcda24b4b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TL_PBox
+    second: {fileID: 2100000, guid: 347d6fce1db2b9d4e80d8d056810a548, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TL_Pedes
+    second: {fileID: 2100000, guid: abf660589482d6948bcec5615072c565, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TL_Pole
+    second: {fileID: 2100000, guid: 7641e2c4683218a4fa8af54be4fb8d0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TL_Traffic Light
+    second: {fileID: 2100000, guid: 548deb1ee3f72de49afb83ae592ed4be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WarehouseA
+    second: {fileID: 2100000, guid: 4ed0a2f84eedef64caf0d1cf27c58b30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WarehouseB
+    second: {fileID: 2100000, guid: 429e722b0b28cba4fb306b1f0325ad0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xpc0039.002
+    second: {fileID: 2100000, guid: db87b528be2f7d3438f556f741ce5a8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xpc0081.002
+    second: {fileID: 2100000, guid: 39d55481ad8af1447b9ab61e8c82f869, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xpc0084.002
+    second: {fileID: 2100000, guid: ae37daa2e48ad004c9b1cefd10268153, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
