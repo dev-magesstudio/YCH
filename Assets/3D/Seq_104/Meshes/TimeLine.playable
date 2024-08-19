@@ -376,7 +376,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
     m_PreExtrapolationTime: 0.000000000000005773159728050814
-    m_DisplayName: Scene
+    m_DisplayName: EnvironDup
   m_Markers:
     m_Objects: []
   m_InfiniteClipPreExtrapolation: 0
@@ -409,7 +409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: -623603649343465320, guid: 4f5eb7403c88f44f6880813d551b9174, type: 3}
+  m_Clip: {fileID: 7400000, guid: 805fcb7dfd38ba3488d01d346b0b8bf6, type: 2}
   m_Position: {x: -37.07, y: 0.36, z: 13.8}
   m_EulerAngles: {x: -90, y: 180, z: 0}
   m_UseTrackMatchFields: 1
