@@ -19,4 +19,11 @@ public void DestroyPrefab(){
     go = GameObject.FindGameObjectsWithTag("3DModel");
     Destroy(go[0]);
 }
+public void DestroySeqOneAndTwoPrefabs(){
+    
+    GameObject[] go;
+    go = GameObject.FindGameObjectsWithTag("3DModel");
+    Destroy(go[1]);
+    Destroy(go[0]);
+}
 }

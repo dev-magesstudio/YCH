@@ -5,12 +5,13 @@ using UnityEngine;
 public class GlobeTransitionController : MonoBehaviour
 {
     public Material[] targetMaterials;  // Assign your materials in the Inspector
-    public float duration = 2.0f;       // Duration of the fade-out
+    public float duration = 2.0f;       // Duration of the fade-out/in
 
     private float timeElapsed = 0.0f;
     private Color[] startColors;
     private Color[] endColors;
     private bool isFadingOut = false;   // Flag to control the fade-out process
+    private bool isFadingIn = false;    // Flag to control the fade-in process
 
     void Start()
     {
@@ -55,18 +56,54 @@ public class GlobeTransitionController : MonoBehaviour
                 }
             }
         }
+        else if (isFadingIn)
+        {
+            if (timeElapsed < duration)
+            {
+                timeElapsed += Time.deltaTime;
+                float percentageComplete = timeElapsed / duration;
+
+                // Interpolate the alpha value for each material
+                for (int i = 0; i < targetMaterials.Length; i++)
+                {
+                    Color newColor = Color.Lerp(endColors[i], startColors[i], percentageComplete);
+                    targetMaterials[i].color = newColor;
+                }
+
+                // Stop fading when complete
+                if (percentageComplete >= 1.0f)
+                {
+                    isFadingIn = false;
+                }
+            }
+        }
     }
 
     // Public method to start the fade-out process
     public void StartFadeOut()
     {
         isFadingOut = true;
+        isFadingIn = false;  // Ensure fade-in is not active
         timeElapsed = 0.0f;  // Reset the time counter
 
         // Ensure all materials start fully opaque
         for (int i = 0; i < targetMaterials.Length; i++)
         {
             targetMaterials[i].color = startColors[i];
+        }
+    }
+
+    // Public method to start the fade-in process
+    public void StartFadeIn()
+    {
+        isFadingIn = true;
+        isFadingOut = false;  // Ensure fade-out is not active
+        timeElapsed = 0.0f;   // Reset the time counter
+
+        // Ensure all materials start fully transparent
+        for (int i = 0; i < targetMaterials.Length; i++)
+        {
+            targetMaterials[i].color = endColors[i];
         }
     }
 }

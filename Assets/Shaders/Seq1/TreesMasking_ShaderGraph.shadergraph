@@ -125,6 +125,9 @@
         },
         {
             "m_Id": "46e6eed86ade4577bbcba08a67a8ed9a"
+        },
+        {
+            "m_Id": "664fe2dbec5a4064b2af7e5f61e26e2e"
         }
     ],
     "m_GroupDatas": [],
@@ -480,6 +483,9 @@
             },
             {
                 "m_Id": "46e6eed86ade4577bbcba08a67a8ed9a"
+            },
+            {
+                "m_Id": "664fe2dbec5a4064b2af7e5f61e26e2e"
             }
         ]
     },
@@ -1123,7 +1129,7 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.MaterialX.MtlxDataExtension",
     "m_ObjectId": "38da0c000db5497ba4a9e10ec438cc63",
-    "m_EnableUnlitToneMapping": false
+    "m_EnableUnlitToneMapping": true
 }
 
 {
@@ -1173,6 +1179,21 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "VertexDescription.Tangent"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "3cd9c8f05aaa45a2b4bc8ef3c3a81065",
+    "m_Id": 0,
+    "m_DisplayName": "Coat Mask",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "CoatMask",
+    "m_StageCapability": 2,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -1660,6 +1681,40 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "664fe2dbec5a4064b2af7e5f61e26e2e",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SurfaceDescription.CoatMask",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "3cd9c8f05aaa45a2b4bc8ef3c3a81065"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "SurfaceDescription.CoatMask"
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "68c926402cd04522baa21b57e0ebc127",
     "m_Id": 0,
@@ -1731,7 +1786,7 @@
     "m_ObjectId": "6e179f1e5d1e44fa92cf71d138e81ee0",
     "m_WorkflowMode": 1,
     "m_NormalDropOffSpace": 0,
-    "m_ClearCoat": false,
+    "m_ClearCoat": true,
     "m_BlendModePreserveSpecular": false
 }
 

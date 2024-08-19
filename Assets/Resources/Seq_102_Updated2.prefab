@@ -3901,6 +3901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3335575800767705552}
   - component: {fileID: 8238148467855861439}
+  - component: {fileID: 2356638907506696629}
   m_Layer: 0
   m_Name: GlobeAnim_Published
   m_TagString: Untagged
@@ -3950,6 +3951,36 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2356638907506696629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4511841537369430629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 59c2f5d563dc245c280a35bbbf98060d, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7474478659510161687}
+          m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
+          m_MethodName: DestroySeqOneAndTwoPrefabs
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &4660972538478786756
 GameObject:
   m_ObjectHideFlags: 0
@@ -4426,6 +4457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 312146773786410266}
   - component: {fileID: 1488961728665794955}
+  - component: {fileID: 1419117550302137398}
   m_Layer: 0
   m_Name: TimeLine2
   m_TagString: Untagged
@@ -4493,8 +4525,6 @@ PlayableDirector:
     value: {fileID: 7705643810408101643}
   - key: {fileID: 1905281794159923165, guid: 78f2851a9f8969348b27ad74e7ddecf3, type: 2}
     value: {fileID: 7893412894585021368}
-  - key: {fileID: 2847542497093586302, guid: 78f2851a9f8969348b27ad74e7ddecf3, type: 2}
-    value: {fileID: 7893412894585021368}
   - key: {fileID: -9218160139697377381, guid: 78f2851a9f8969348b27ad74e7ddecf3, type: 2}
     value: {fileID: 2546324618656426494}
   - key: {fileID: 5734084823656327483, guid: 78f2851a9f8969348b27ad74e7ddecf3, type: 2}
@@ -4513,8 +4543,6 @@ PlayableDirector:
     value: {fileID: 3217252387708958217}
   - key: {fileID: -4296119949459668295, guid: 78f2851a9f8969348b27ad74e7ddecf3, type: 2}
     value: {fileID: 498959540665977625}
-  - key: {fileID: -6533107431327864498, guid: 78f2851a9f8969348b27ad74e7ddecf3, type: 2}
-    value: {fileID: 5633629404965596590}
   m_ExposedReferences:
     m_References:
     - a569c8f57cdc44a4e992651525ac7e7d: {fileID: 0}
@@ -4535,6 +4563,27 @@ PlayableDirector:
     - 6bdfefd917bfef9488e120d7c539a285: {fileID: 0}
     - 8f19773300c763248b135b34dc9d7685: {fileID: 0}
     - 3295cce2d95021b4a88d293ef42fa7d8: {fileID: 0}
+--- !u!95 &1419117550302137398
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5198176225700946800}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5293041851856245560
 GameObject:
   m_ObjectHideFlags: 0
@@ -5063,7 +5112,7 @@ Transform:
   m_GameObject: {fileID: 6436090640009207708}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.079, y: 0.632, z: 0}
+  m_LocalPosition: {x: -0.079, y: 0.281, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5979,7 +6028,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4862524405531917513
 Transform:
   m_ObjectHideFlags: 0
@@ -6211,6 +6260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4a9fb07d52b44c5cb86942e3a295662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadPos: {x: 0, y: 0, z: 0}
 --- !u!114 &4398424498377020688
 MonoBehaviour:
   m_ObjectHideFlags: 0
