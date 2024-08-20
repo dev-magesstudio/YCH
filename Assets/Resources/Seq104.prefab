@@ -57,10 +57,11 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: -3102246132795893977, guid: 685762f03b7aed24293aace2d2c9ef21, type: 2}
     value: {fileID: 2183867496514176808}
-  - key: {fileID: -1065647222642544120, guid: 685762f03b7aed24293aace2d2c9ef21, type: 2}
-    value: {fileID: 0}
+  - key: {fileID: -8811639034262772587, guid: 685762f03b7aed24293aace2d2c9ef21, type: 2}
+    value: {fileID: 1273049617248641808}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - 1b3e1d5c0b844442987d711dadd6841f: {fileID: 0}
 --- !u!1 &1935126549202134156
 GameObject:
   m_ObjectHideFlags: 0
@@ -70,13 +71,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3537390251704963488}
+  - component: {fileID: 1273049617248641808}
+  - component: {fileID: 5062256349632819403}
   m_Layer: 0
   m_Name: Seq104
-  m_TagString: Untagged
+  m_TagString: 3DModel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3537390251704963488
 Transform:
   m_ObjectHideFlags: 0
@@ -98,6 +101,81 @@ Transform:
   - {fileID: 5618930924977652546}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1273049617248641808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935126549202134156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 61f7d87d4ba3e4c4988f5696ceedc621, type: 2}
+    - {fileID: 11400000, guid: af925aadcc3b342e9bf93206b24df55a, type: 2}
+    - {fileID: 11400000, guid: 59c2f5d563dc245c280a35bbbf98060d, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5062256349632819403}
+          m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
+          m_MethodName: LoadPrefab
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 6386797282708991029, guid: 46c754f048e114122824d22a344915e5,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5062256349632819403}
+          m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
+          m_MethodName: LoadPrefab
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 5727795930775190932, guid: 9d326285b3cf34eceb005c955c7eece6,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5062256349632819403}
+          m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
+          m_MethodName: DestroyPrefab
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &5062256349632819403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935126549202134156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4a9fb07d52b44c5cb86942e3a295662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadPos: {x: 0, y: 0, z: 0}
 --- !u!1001 &1337514368127138425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -294,7 +372,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 51d5e08e7da4139418e03e3d74edb48e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

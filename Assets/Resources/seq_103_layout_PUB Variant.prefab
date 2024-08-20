@@ -1652,6 +1652,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 59c2f5d563dc245c280a35bbbf98060d, type: 2}
     - {fileID: 11400000, guid: 31d9fd81e3e5449fb9462215a5425551, type: 2}
     - {fileID: 11400000, guid: d8ef4d4aeeebc4123917c3a317c0e2e3, type: 2}
+    - {fileID: 11400000, guid: af925aadcc3b342e9bf93206b24df55a, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -1690,6 +1691,21 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8569816134836562598}
+          m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
+          m_MethodName: LoadPrefab
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1935126549202134156, guid: 3852c52ca29824af287804fb422b3049,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
