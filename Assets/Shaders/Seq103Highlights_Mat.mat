@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Seq103Highlights_Mat
-  m_Shader: {fileID: -6465566751694194690, guid: 383f4c84cabb648fd8d61d3cae695bfd,
+  m_Shader: {fileID: -6465566751694194690, guid: 22220414729564831902c946590c1936,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -48,7 +48,7 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _VisibilityThreshold: -0.5
+    - _VisibilityThreshold: -0.8
     m_Colors:
     - _Color: {r: 1, g: 0.7678805, b: 0, a: 1}
   m_BuildTextureStacks: []

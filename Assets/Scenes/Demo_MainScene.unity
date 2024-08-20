@@ -774,7 +774,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &349842114
 Transform:
   m_ObjectHideFlags: 0
@@ -888,6 +888,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 700147247}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0c936f5a5208a7346920a1ff8c9437b3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 700147249}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0c936f5a5208a7346920a1ff8c9437b3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 700147250}
   m_SourcePrefab: {fileID: 100100000, guid: 0c936f5a5208a7346920a1ff8c9437b3, type: 3}
 --- !u!1 &700147246 stripped
 GameObject:
@@ -922,6 +930,51 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 700147245}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &700147249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700147246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f291fe98e7ef446dd9f8306684e35122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetMaterials:
+  - {fileID: 2100000, guid: 1e23a35b926a15d4ca03c8584df716d8, type: 2}
+  duration: 10
+--- !u!114 &700147250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700147246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 2d6feb853fdc6411e9caed706cb76d54, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 700147249}
+          m_TargetAssemblyTypeName: FadeOutController, Assembly-CSharp
+          m_MethodName: StartFadeIn
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &733366919
 GameObject:
   m_ObjectHideFlags: 0
@@ -1626,9 +1679,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285508469}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 46c3fee05ca7644fd8e5d84419b8dccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetMaterials:
+  - {fileID: 2100000, guid: 9438e5a1873ca6b41b17f447cf19d48f, type: 2}
+  duration: 3
+--- !u!114 &1285508477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285508469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f291fe98e7ef446dd9f8306684e35122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   targetMaterials:
@@ -2261,6 +2329,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1285508473}
+    - targetCorrespondingSourceObject: {fileID: 1378922297957006227, guid: a240100957fce7e4ebb490be21ed9d9f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1285508477}
     - targetCorrespondingSourceObject: {fileID: -5201489069782796279, guid: a240100957fce7e4ebb490be21ed9d9f,
         type: 3}
       insertIndex: -1
@@ -2333,8 +2405,8 @@ MonoBehaviour:
     m_Events:
     - m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1285508473}
-          m_TargetAssemblyTypeName: GlobeTransitionController, Assembly-CSharp
+        - m_Target: {fileID: 1285508477}
+          m_TargetAssemblyTypeName: FadeOutController, Assembly-CSharp
           m_MethodName: StartFadeIn
           m_Mode: 1
           m_Arguments:
@@ -12895,7 +12967,7 @@ Transform:
   m_GameObject: {fileID: 5186916255791745958}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.015, y: -0.738, z: 0.00999999}
+  m_LocalPosition: {x: -0.015, y: -0.7492, z: 0.00999999}
   m_LocalScale: {x: 1, y: 0.0007692308, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
