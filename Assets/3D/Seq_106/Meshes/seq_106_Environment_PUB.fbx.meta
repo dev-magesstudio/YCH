@@ -22,6 +22,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Floor_GrassLight
+    second: {fileID: 2100000, guid: 078cb5147cafc884f86b5bb7fdebe5d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Maple
     second: {fileID: 2100000, guid: 02cbe86be55950c40a85b0a46b68c54d, type: 2}
   - first:

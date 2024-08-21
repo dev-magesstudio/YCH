@@ -29,6 +29,61 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Asp_Warehouse
     second: {fileID: 2100000, guid: 34d5a7f1e24075e43a85ea778e83d9de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Birch.003
+    second: {fileID: 2100000, guid: dce47ed431d976249b282eac73703879, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Maple.002
+    second: {fileID: 2100000, guid: 4a8c308b5ec035445a13e65d689aa071, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Maple.003
+    second: {fileID: 2100000, guid: 6cb89e6a93acbd549b4a04e175086098, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak.003
+    second: {fileID: 2100000, guid: 2536c8601b946d14492f542e45fd8385, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak.004
+    second: {fileID: 2100000, guid: 2f68f8664f6d64244aa9c0b02b83f742, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rowanberry.003
+    second: {fileID: 2100000, guid: 993e0ebe573b8344da68d7e4875ace22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rowanberry.004
+    second: {fileID: 2100000, guid: 4a6ae9fdfb520e5478d15979f598c66a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreeSP_A
+    second: {fileID: 2100000, guid: 5e3a0970ddc4750488ecdedae729d567, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreeSP_B
+    second: {fileID: 2100000, guid: 90738d73b4905b045839705508d78755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreeSP_C
+    second: {fileID: 2100000, guid: c1d252407edd802408eb23f0a91419d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreeSP_D
+    second: {fileID: 2100000, guid: d1d17d03f50c37248af3e1d277d6b01a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
