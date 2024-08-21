@@ -65,7 +65,7 @@ Material:
     - _DrawOrder: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _VisibilityThreshold: 2
+    - _VisibilityThreshold: 0.3051359
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

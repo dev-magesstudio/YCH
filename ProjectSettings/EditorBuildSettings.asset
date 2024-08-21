@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/IndividualModelTestScene.unity
     guid: a249322ed595f48ec91145c0f4d093cb
+  - enabled: 0
+    path: Assets/Scenes/Demo_MainScene2.unity
+    guid: 6cf17e214f4d649c09ef3d7349372ced
   m_configObjects:
     UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: 04081641d8b5d4dd19ccf8f1e762dd6c,
       type: 2}
