@@ -67,5 +67,5 @@ Material:
     - _QueueOffset: 0
     - _VisibilityThreshold: 2
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0.36134756}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.100343764}
   m_BuildTextureStacks: []

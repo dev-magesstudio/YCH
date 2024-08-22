@@ -51,6 +51,7 @@ Material:
     - _VisibilityThreshold: -0.8
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 766.99615, g: 474.94366, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &3852581299700129006
 MonoBehaviour:
