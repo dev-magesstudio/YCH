@@ -139,6 +139,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: seq_107_Environment_PUB
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 680b77b82a27ffe4a93035c31bcbd107,
+        type: 3}
+      propertyPath: m_TagString
+      value: 3DModel
+      objectReference: {fileID: 0}
     - target: {fileID: 1269779172542733181, guid: 680b77b82a27ffe4a93035c31bcbd107,
         type: 3}
       propertyPath: m_Materials.Array.data[0]

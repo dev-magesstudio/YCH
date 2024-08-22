@@ -51,6 +51,8 @@ PlayableDirector:
     value: {fileID: 5664615966790825005}
   - key: {fileID: -8430875223064207405, guid: 3a48e61b0cce426499fecc5c15fecfde, type: 2}
     value: {fileID: 5569052908674824824}
+  - key: {fileID: -7979580357422083137, guid: 3a48e61b0cce426499fecc5c15fecfde, type: 2}
+    value: {fileID: 5536490633640155248}
   m_ExposedReferences:
     m_References: []
 --- !u!1001 &9190944366931134726
@@ -135,6 +137,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seq_108_Globe_PUB
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6489515d99383e14ca1cf67054d9a120,
+        type: 3}
+      propertyPath: m_TagString
+      value: 3DModel
       objectReference: {fileID: 0}
     - target: {fileID: 1463320347973610552, guid: 6489515d99383e14ca1cf67054d9a120,
         type: 3}
@@ -336,7 +343,8 @@ MonoBehaviour:
           m_MethodName: LoadPrefab
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgument: {fileID: 5379752498278431768, guid: 06a40a1bec84440709086a34a7bb3007,
+              type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
