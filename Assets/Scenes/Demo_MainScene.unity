@@ -98,8 +98,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: c119c24917d7f4b0d9a2ff52346bf180,
     type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: bc0490f0147f24a86a6e4927bec52aff,
-    type: 2}
+  m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -640,6 +639,10 @@ PlayableDirector:
     value: {fileID: 2007008998}
   - key: {fileID: -2192086132548466003, guid: 15ea5b122ad23f64c9596e289aa0ec9f, type: 2}
     value: {fileID: 1546033770}
+  - key: {fileID: 7497133385732712753, guid: 15ea5b122ad23f64c9596e289aa0ec9f, type: 2}
+    value: {fileID: 1537945734}
+  - key: {fileID: 439480104470222464, guid: 15ea5b122ad23f64c9596e289aa0ec9f, type: 2}
+    value: {fileID: 349842113}
   m_ExposedReferences:
     m_References:
     - 7c08a83183ac9426bb6f02d4ff9ae3d7: {fileID: 0}
@@ -728,7 +731,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 349842113}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
