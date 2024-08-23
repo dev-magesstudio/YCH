@@ -10,6 +10,8 @@ public class TextFadeOut : MonoBehaviour
     private float timeElapsed = 0.0f;
     private Color[] startColors;
     private Color[] endColors;
+
+    public bool shouldBeOpaqueInBeginning = false;
     private bool isFadingOut = false;   // Flag to control the fade-out process
     // Start is called before the first frame update
     void Start()
@@ -28,7 +30,8 @@ public class TextFadeOut : MonoBehaviour
             endColors[i].a = 0.0f;
 
             // Ensure each material starts fully opaque
-            //targetMaterials[i].color = startColors[i];
+            if(shouldBeOpaqueInBeginning)
+                targetMaterials[i].color = startColors[i];
             
         }
         

@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 1042454492652500005}
   - component: {fileID: 4376760465531956868}
   - component: {fileID: 9012402730081321427}
-  - component: {fileID: 6065063433669860928}
-  - component: {fileID: 9079985788176653437}
   m_Layer: 0
   m_Name: 3DButton
   m_TagString: Untagged
@@ -107,32 +105,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.5999999, y: 0.59999996, z: 0.049999997}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6065063433669860928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 276134059232866341}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bec180ed0ef74440b93237e826654f13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9079985788176653437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 276134059232866341}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 696b042f926564713a7de4b359524e58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_LevelName: ProjectLauncher
-  m_LevelType: 0
 --- !u!1 &357577514801217767
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,8 +888,6 @@ GameObject:
   - component: {fileID: 6262703260242502703}
   - component: {fileID: 5189087653678921645}
   - component: {fileID: 8911785908131355479}
-  - component: {fileID: 5362768433013911365}
-  - component: {fileID: 1582729486455424799}
   m_Layer: 0
   m_Name: 3DButton
   m_TagString: Untagged
@@ -1011,32 +981,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.5999999, y: 0.59999996, z: 0.049999997}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5362768433013911365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2928552752726757804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bec180ed0ef74440b93237e826654f13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1582729486455424799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2928552752726757804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 696b042f926564713a7de4b359524e58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_LevelName: ProjectLauncher
-  m_LevelType: 0
 --- !u!1 &3071934428695057204
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,8 +993,6 @@ GameObject:
   - component: {fileID: 5475493198770800309}
   - component: {fileID: 4795432134490218159}
   - component: {fileID: 6195256609399350699}
-  - component: {fileID: 6047045111067212425}
-  - component: {fileID: 8306827090051967492}
   m_Layer: 0
   m_Name: 3DButton
   m_TagString: Untagged
@@ -1144,32 +1086,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.5999999, y: 0.59999996, z: 0.049999997}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6047045111067212425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3071934428695057204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bec180ed0ef74440b93237e826654f13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &8306827090051967492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3071934428695057204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 696b042f926564713a7de4b359524e58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_LevelName: ProjectLauncher
-  m_LevelType: 0
 --- !u!1 &4245454677477645702
 GameObject:
   m_ObjectHideFlags: 0
@@ -2148,12 +2064,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 91290ccf87d49e84ebceefcf273a1454,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -89.98021
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91290ccf87d49e84ebceefcf273a1454,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 8.59299e-31
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91290ccf87d49e84ebceefcf273a1454,
         type: 3}
@@ -2250,7 +2166,7 @@ Animator:
   m_GameObject: {fileID: 8128251908130874308}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a9849d35447e5495b832783a96bef2f5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

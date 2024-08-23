@@ -154,6 +154,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: HologarmKid_PUB
       objectReference: {fileID: 0}
+    - target: {fileID: 4580833079106138016, guid: b2d3faf74fc05fb4099d3746c5bf5e18,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 3133245384339504426, guid: 1c91c6c38647a4d4c9cb766dba4a3067,
+        type: 3}
+    - target: {fileID: 4580833079106138016, guid: b2d3faf74fc05fb4099d3746c5bf5e18,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 3133245384339504426, guid: 1c91c6c38647a4d4c9cb766dba4a3067,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -333,6 +345,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6065572160374535934, guid: 0335611f71e50ed40afb51b3411315cd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 3133245384339504426, guid: 1c91c6c38647a4d4c9cb766dba4a3067,
+        type: 3}
+    - target: {fileID: -6065572160374535934, guid: 0335611f71e50ed40afb51b3411315cd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 3133245384339504426, guid: 1c91c6c38647a4d4c9cb766dba4a3067,
+        type: 3}
     - target: {fileID: 919132149155446097, guid: 0335611f71e50ed40afb51b3411315cd,
         type: 3}
       propertyPath: m_Name

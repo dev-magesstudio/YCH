@@ -1323,7 +1323,7 @@ MonoBehaviour:
   thresholdProperty: _VisibilityThreshold
   startThreshold: 5
   endThreshold: -5
-  duration: 6
+  duration: 3
   eventOnCompletion:
     m_PersistentCalls:
       m_Calls: []
