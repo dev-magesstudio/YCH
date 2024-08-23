@@ -2212,9 +2212,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285508469}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f291fe98e7ef446dd9f8306684e35122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetMaterials:
+  - {fileID: 2100000, guid: 9438e5a1873ca6b41b17f447cf19d48f, type: 2}
+  duration: 2
+--- !u!114 &1285508478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285508469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faad7c498bbee4f69a30b5ce97d77cf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   targetMaterials:
@@ -3023,6 +3038,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1285508477}
+    - targetCorrespondingSourceObject: {fileID: 1378922297957006227, guid: a240100957fce7e4ebb490be21ed9d9f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1285508478}
     - targetCorrespondingSourceObject: {fileID: -5201489069782796279, guid: a240100957fce7e4ebb490be21ed9d9f,
         type: 3}
       insertIndex: -1
@@ -3094,19 +3113,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2d6feb853fdc6411e9caed706cb76d54, type: 2}
     m_Events:
     - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1285508477}
-          m_TargetAssemblyTypeName: FadeOutController, Assembly-CSharp
-          m_MethodName: StartFadeIn
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+        m_Calls: []
 --- !u!1 &1705581396
 GameObject:
   m_ObjectHideFlags: 0

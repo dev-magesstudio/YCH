@@ -582,6 +582,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3432847403348201570, guid: c4b190eb344224ab29fa7821fb88f5cc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3787
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
