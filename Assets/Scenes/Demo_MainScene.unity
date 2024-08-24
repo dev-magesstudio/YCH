@@ -151,31 +151,6 @@ MonoBehaviour:
       m_Calls: []
   audioSource: {fileID: 0}
   effectOnStart: 1
---- !u!1 &85430221 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2833716800940249714, guid: dbd7686aa11cb446d8f9cb769607c370,
-    type: 3}
-  m_PrefabInstance: {fileID: 2032273037}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &85430227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 85430221}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faad7c498bbee4f69a30b5ce97d77cf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMaterials:
-  - {fileID: 2100000, guid: 9d2d2989dd46b4fc0800f6c51da4b930, type: 2}
-  duration: 1
-  eventOnCompletion:
-    m_PersistentCalls:
-      m_Calls: []
-  invokeAfterTime: 0
 --- !u!1 &112022880 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -608491629209561316, guid: 60ed6b918775bef4ebf0f6e879d353a7,
@@ -194,31 +169,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb3253954b264355a3d7500f55f2655, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &139767148 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1764778478957227341, guid: dbd7686aa11cb446d8f9cb769607c370,
-    type: 3}
-  m_PrefabInstance: {fileID: 2032273037}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &139767154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139767148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faad7c498bbee4f69a30b5ce97d77cf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMaterials:
-  - {fileID: 2100000, guid: 7aeb8bf8e624748dea420a84e8540508, type: 2}
-  duration: 1
-  eventOnCompletion:
-    m_PersistentCalls:
-      m_Calls: []
-  invokeAfterTime: 0
 --- !u!1 &160818190
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,59 +840,6 @@ MonoBehaviour:
       m_Calls: []
   audioSource: {fileID: 0}
   effectOnStart: 1
---- !u!1 &320669057 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1109404884204189718, guid: dbd7686aa11cb446d8f9cb769607c370,
-    type: 3}
-  m_PrefabInstance: {fileID: 2032273037}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &320669063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320669057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e58e42c85392e415cb09a0c6329608c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMaterials:
-  - {fileID: 2100000, guid: 024be4671e9004f7ca4ac0541141b640, type: 2}
-  duration: 1
-  shouldBeOpaqueInBeginning: 0
---- !u!114 &320669064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320669057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faad7c498bbee4f69a30b5ce97d77cf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMaterials:
-  - {fileID: 2100000, guid: 024be4671e9004f7ca4ac0541141b640, type: 2}
-  duration: 1
-  eventOnCompletion:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 320669063}
-        m_TargetAssemblyTypeName: TextFadeOut, Assembly-CSharp
-        m_MethodName: StartFadeOut
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  invokeAfterTime: 1
 --- !u!1 &349842113
 GameObject:
   m_ObjectHideFlags: 0
@@ -1678,31 +1575,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb3253954b264355a3d7500f55f2655, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &850217454 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7134097764117903217, guid: dbd7686aa11cb446d8f9cb769607c370,
-    type: 3}
-  m_PrefabInstance: {fileID: 2032273037}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &850217460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 850217454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faad7c498bbee4f69a30b5ce97d77cf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMaterials:
-  - {fileID: 2100000, guid: 7279a2d41810746668905935826a986c, type: 2}
-  duration: 1
-  eventOnCompletion:
-    m_PersistentCalls:
-      m_Calls: []
-  invokeAfterTime: 0
 --- !u!1 &902275387 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5201489069782796279, guid: a240100957fce7e4ebb490be21ed9d9f,
@@ -2027,59 +1899,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &1172899071 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1611358684854347861, guid: dbd7686aa11cb446d8f9cb769607c370,
-    type: 3}
-  m_PrefabInstance: {fileID: 2032273037}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1172899077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172899071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e58e42c85392e415cb09a0c6329608c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMaterials:
-  - {fileID: 2100000, guid: 024be4671e9004f7ca4ac0541141b640, type: 2}
-  duration: 1
-  shouldBeOpaqueInBeginning: 0
---- !u!114 &1172899078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172899071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faad7c498bbee4f69a30b5ce97d77cf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMaterials:
-  - {fileID: 2100000, guid: 024be4671e9004f7ca4ac0541141b640, type: 2}
-  duration: 1
-  eventOnCompletion:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1172899077}
-        m_TargetAssemblyTypeName: TextFadeOut, Assembly-CSharp
-        m_MethodName: StartFadeOut
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  invokeAfterTime: 1
 --- !u!1 &1200525678
 GameObject:
   m_ObjectHideFlags: 0
@@ -2438,31 +2257,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb3253954b264355a3d7500f55f2655, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1381157106 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 565298143587895754, guid: dbd7686aa11cb446d8f9cb769607c370,
-    type: 3}
-  m_PrefabInstance: {fileID: 2032273037}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1381157113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1381157106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faad7c498bbee4f69a30b5ce97d77cf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMaterials:
-  - {fileID: 2100000, guid: 38559bcf261a9444da9c41177d0a7ae5, type: 2}
-  duration: 1
-  eventOnCompletion:
-    m_PersistentCalls:
-      m_Calls: []
-  invokeAfterTime: 0
 --- !u!1 &1384521381
 GameObject:
   m_ObjectHideFlags: 0
@@ -2746,6 +2540,59 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1548664098 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 561113887245276760, guid: dbd7686aa11cb446d8f9cb769607c370,
+    type: 3}
+  m_PrefabInstance: {fileID: 2032273037}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1548664100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548664098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e58e42c85392e415cb09a0c6329608c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetMaterials:
+  - {fileID: 2100000, guid: 024be4671e9004f7ca4ac0541141b640, type: 2}
+  duration: 1
+  shouldBeOpaqueInBeginning: 0
+--- !u!114 &1548664101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548664098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faad7c498bbee4f69a30b5ce97d77cf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetMaterials:
+  - {fileID: 2100000, guid: 024be4671e9004f7ca4ac0541141b640, type: 2}
+  duration: 1
+  eventOnCompletion:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1548664100}
+        m_TargetAssemblyTypeName: TextFadeOut, Assembly-CSharp
+        m_MethodName: StartFadeOut
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  invokeAfterTime: 1
 --- !u!1001 &1593519917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8326,59 +8173,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb3253954b264355a3d7500f55f2655, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1869476041 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2350735237083758260, guid: dbd7686aa11cb446d8f9cb769607c370,
-    type: 3}
-  m_PrefabInstance: {fileID: 2032273037}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1869476047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1869476041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e58e42c85392e415cb09a0c6329608c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMaterials:
-  - {fileID: 2100000, guid: 024be4671e9004f7ca4ac0541141b640, type: 2}
-  duration: 1
-  shouldBeOpaqueInBeginning: 0
---- !u!114 &1869476048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1869476041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faad7c498bbee4f69a30b5ce97d77cf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMaterials:
-  - {fileID: 2100000, guid: 024be4671e9004f7ca4ac0541141b640, type: 2}
-  duration: 1
-  eventOnCompletion:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1869476047}
-        m_TargetAssemblyTypeName: TextFadeOut, Assembly-CSharp
-        m_MethodName: StartFadeOut
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  invokeAfterTime: 1
 --- !u!1 &1920319742 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8111686192765561476, guid: 60ed6b918775bef4ebf0f6e879d353a7,
@@ -13649,110 +13443,68 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3285029161397120418, guid: dbd7686aa11cb446d8f9cb769607c370,
+    - target: {fileID: 901470578877877474, guid: dbd7686aa11cb446d8f9cb769607c370,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_LocalScale.x
+      value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 4016404138771099835, guid: dbd7686aa11cb446d8f9cb769607c370,
+    - target: {fileID: 901470578877877474, guid: dbd7686aa11cb446d8f9cb769607c370,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_LocalScale.y
+      value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 6230078805158525499, guid: dbd7686aa11cb446d8f9cb769607c370,
+    - target: {fileID: 901470578877877474, guid: dbd7686aa11cb446d8f9cb769607c370,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_LocalScale.z
+      value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 6678149323560224766, guid: dbd7686aa11cb446d8f9cb769607c370,
+    - target: {fileID: 901470578877877474, guid: dbd7686aa11cb446d8f9cb769607c370,
         type: 3}
-      propertyPath: m_Enabled
-      value: 1
+      propertyPath: m_LocalPosition.x
+      value: -0.71
       objectReference: {fileID: 0}
-    - target: {fileID: 7096386582240693910, guid: dbd7686aa11cb446d8f9cb769607c370,
+    - target: {fileID: 901470578877877474, guid: dbd7686aa11cb446d8f9cb769607c370,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_LocalPosition.y
+      value: 0.217
       objectReference: {fileID: 0}
-    - target: {fileID: 7195780304519242890, guid: dbd7686aa11cb446d8f9cb769607c370,
+    - target: {fileID: 901470578877877474, guid: dbd7686aa11cb446d8f9cb769607c370,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_LocalPosition.z
+      value: -2.922
       objectReference: {fileID: 0}
-    - target: {fileID: 7374697255668653452, guid: dbd7686aa11cb446d8f9cb769607c370,
+    - target: {fileID: 901470578877877474, guid: dbd7686aa11cb446d8f9cb769607c370,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 8958228782863388830, guid: dbd7686aa11cb446d8f9cb769607c370,
+    - target: {fileID: 901470578877877474, guid: dbd7686aa11cb446d8f9cb769607c370,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7374697255668653452, guid: dbd7686aa11cb446d8f9cb769607c370, type: 3}
-    - {fileID: 6230078805158525499, guid: dbd7686aa11cb446d8f9cb769607c370, type: 3}
-    - {fileID: 4016404138771099835, guid: dbd7686aa11cb446d8f9cb769607c370, type: 3}
-    - {fileID: 3285029161397120418, guid: dbd7686aa11cb446d8f9cb769607c370, type: 3}
+    - target: {fileID: 901470578877877474, guid: dbd7686aa11cb446d8f9cb769607c370,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2074336900476614541, guid: dbd7686aa11cb446d8f9cb769607c370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 024be4671e9004f7ca4ac0541141b640, type: 2}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 565298143587895754, guid: dbd7686aa11cb446d8f9cb769607c370,
+    - targetCorrespondingSourceObject: {fileID: 561113887245276760, guid: dbd7686aa11cb446d8f9cb769607c370,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1381157113}
-    - targetCorrespondingSourceObject: {fileID: 7134097764117903217, guid: dbd7686aa11cb446d8f9cb769607c370,
+      addedObject: {fileID: 1548664101}
+    - targetCorrespondingSourceObject: {fileID: 561113887245276760, guid: dbd7686aa11cb446d8f9cb769607c370,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 850217460}
-    - targetCorrespondingSourceObject: {fileID: 1764778478957227341, guid: dbd7686aa11cb446d8f9cb769607c370,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 139767154}
-    - targetCorrespondingSourceObject: {fileID: 2833716800940249714, guid: dbd7686aa11cb446d8f9cb769607c370,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 85430227}
-    - targetCorrespondingSourceObject: {fileID: 1611358684854347861, guid: dbd7686aa11cb446d8f9cb769607c370,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1172899078}
-    - targetCorrespondingSourceObject: {fileID: 1611358684854347861, guid: dbd7686aa11cb446d8f9cb769607c370,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1172899077}
-    - targetCorrespondingSourceObject: {fileID: 2350735237083758260, guid: dbd7686aa11cb446d8f9cb769607c370,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1869476048}
-    - targetCorrespondingSourceObject: {fileID: 2350735237083758260, guid: dbd7686aa11cb446d8f9cb769607c370,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1869476047}
-    - targetCorrespondingSourceObject: {fileID: 1501794513687250837, guid: dbd7686aa11cb446d8f9cb769607c370,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2069650511}
-    - targetCorrespondingSourceObject: {fileID: 1501794513687250837, guid: dbd7686aa11cb446d8f9cb769607c370,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2069650510}
-    - targetCorrespondingSourceObject: {fileID: 3856594972041399658, guid: dbd7686aa11cb446d8f9cb769607c370,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2077176328}
-    - targetCorrespondingSourceObject: {fileID: 3856594972041399658, guid: dbd7686aa11cb446d8f9cb769607c370,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2077176327}
-    - targetCorrespondingSourceObject: {fileID: 1109404884204189718, guid: dbd7686aa11cb446d8f9cb769607c370,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 320669064}
-    - targetCorrespondingSourceObject: {fileID: 1109404884204189718, guid: dbd7686aa11cb446d8f9cb769607c370,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 320669063}
+      addedObject: {fileID: 1548664100}
   m_SourcePrefab: {fileID: 100100000, guid: dbd7686aa11cb446d8f9cb769607c370, type: 3}
 --- !u!1 &2065073344 stripped
 GameObject:
@@ -13772,112 +13524,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb3253954b264355a3d7500f55f2655, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &2069650504 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1501794513687250837, guid: dbd7686aa11cb446d8f9cb769607c370,
-    type: 3}
-  m_PrefabInstance: {fileID: 2032273037}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2069650510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069650504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e58e42c85392e415cb09a0c6329608c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMaterials:
-  - {fileID: 2100000, guid: 024be4671e9004f7ca4ac0541141b640, type: 2}
-  duration: 1
-  shouldBeOpaqueInBeginning: 0
---- !u!114 &2069650511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069650504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faad7c498bbee4f69a30b5ce97d77cf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMaterials:
-  - {fileID: 2100000, guid: 024be4671e9004f7ca4ac0541141b640, type: 2}
-  duration: 1
-  eventOnCompletion:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2069650510}
-        m_TargetAssemblyTypeName: TextFadeOut, Assembly-CSharp
-        m_MethodName: StartFadeOut
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  invokeAfterTime: 1
---- !u!1 &2077176321 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3856594972041399658, guid: dbd7686aa11cb446d8f9cb769607c370,
-    type: 3}
-  m_PrefabInstance: {fileID: 2032273037}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2077176327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2077176321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e58e42c85392e415cb09a0c6329608c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMaterials:
-  - {fileID: 2100000, guid: 024be4671e9004f7ca4ac0541141b640, type: 2}
-  duration: 1
-  shouldBeOpaqueInBeginning: 0
---- !u!114 &2077176328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2077176321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faad7c498bbee4f69a30b5ce97d77cf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMaterials:
-  - {fileID: 2100000, guid: 024be4671e9004f7ca4ac0541141b640, type: 2}
-  duration: 1
-  eventOnCompletion:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2077176327}
-        m_TargetAssemblyTypeName: TextFadeOut, Assembly-CSharp
-        m_MethodName: StartFadeOut
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  invokeAfterTime: 1
 --- !u!1 &2135173031 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6430312582035598536, guid: 60ed6b918775bef4ebf0f6e879d353a7,
