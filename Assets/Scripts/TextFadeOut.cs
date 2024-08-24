@@ -5,7 +5,7 @@ using UnityEngine;
 public class TextFadeOut : MonoBehaviour
 {
      public Material[] targetMaterials;  // Assign your materials in the Inspector
-    public float duration = 2.0f;       // Duration of the fade-out/in
+    public float duration = 2.0f;       // Duration of the fade-out
 
     private float timeElapsed = 0.0f;
     private Color[] startColors;

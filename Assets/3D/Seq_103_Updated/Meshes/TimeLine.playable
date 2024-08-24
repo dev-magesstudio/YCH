@@ -37,7 +37,7 @@ MonoBehaviour:
     m_Start: 18.61138124670834
     m_ClipIn: 0
     m_Asset: {fileID: -9079291962341954509}
-    m_Duration: 3.733333333333327
+    m_Duration: 4.561707132868463
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8499604788589602817}
     m_EaseInDuration: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
     m_Start: 19.86138124670834
     m_ClipIn: 0
     m_Asset: {fileID: 6353447878601451722}
-    m_Duration: 2.483333333333327
+    m_Duration: 3.311707132868463
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8376573179459972723}
     m_EaseInDuration: 0
@@ -309,6 +309,7 @@ MonoBehaviour:
     - {fileID: 3278292509625478129}
     - {fileID: -4269018031291007529}
     - {fileID: -7282097733142141966}
+    - {fileID: -5841978026797885842}
   m_InfiniteClipPreExtrapolation: 0
   m_InfiniteClipPostExtrapolation: 0
   m_InfiniteClipOffsetPosition: {x: 0, y: 0, z: 0}
@@ -327,6 +328,22 @@ MonoBehaviour:
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
+--- !u!114 &-5841978026797885842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 22.066666666666666
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 5197c6a99768c4b84a7b5f4122cc6593, type: 2}
 --- !u!114 &-4788471168076387466
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -352,7 +369,7 @@ MonoBehaviour:
     m_Start: 16.844714580041668
     m_ClipIn: 0
     m_Asset: {fileID: -2795852334062580940}
-    m_Duration: 5.5
+    m_Duration: 6.328373799535136
     m_TimeScale: 1
     m_ParentTrack: {fileID: -4788471168076387466}
     m_EaseInDuration: 0
@@ -1475,7 +1492,7 @@ MonoBehaviour:
     m_Start: 17.711381246708335
     m_ClipIn: 0
     m_Asset: {fileID: 561338326075499019}
-    m_Duration: 4.633333333333333
+    m_Duration: 5.461707132868469
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8934100853899727982}
     m_EaseInDuration: 0

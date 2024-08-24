@@ -1,16 +1,21 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class TextFadeIn : MonoBehaviour
 {
      public Material[] targetMaterials;  // Assign your materials in the Inspector
-    public float duration = 2.0f;       // Duration of the fade-out/in
+    public float duration = 2.0f;       // Duration of the fade-in
 
     private float timeElapsed = 0.0f;
     private Color[] startColors;
     private Color[] endColors;
     private bool isFadingIn = false;    // Flag to control the fade-in process
+
+    public UnityEvent eventOnCompletion;
+    public float invokeAfterTime;
     // Start is called before the first frame update
     void Start()
     {
@@ -59,9 +64,18 @@ public class TextFadeIn : MonoBehaviour
                     if (percentageComplete >= 1.0f)
                     {
                         isFadingIn = false;
+                        if(eventOnCompletion!=null){
+                            StartCoroutine(CallUnityEvent());
+                           
+                        }
                     }
                 }
         }
         
+    }
+
+    IEnumerator CallUnityEvent(){
+        yield return new WaitForSeconds(invokeAfterTime);
+        eventOnCompletion.Invoke();
     }
 }
