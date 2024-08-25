@@ -52,6 +52,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Birch.003
+    second: {fileID: 2100000, guid: 59b63cff979800b40a43e2345e0294d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: CS_CurbeBase
     second: {fileID: 2100000, guid: f32ebbd31e2ed24448a23e37277020a5, type: 2}
   - first:
@@ -117,6 +122,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Maple.002
+    second: {fileID: 2100000, guid: e40a0573e2466734ebdee033b7ddd443, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Maple.003
+    second: {fileID: 2100000, guid: 64ca3d5ed9b2088448f9421b311dc2d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Maple.004
     second: {fileID: 2100000, guid: 2251d9b5e8c537b4cbba37edfd570ed4, type: 2}
   - first:
@@ -134,6 +149,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Oak.002
     second: {fileID: 2100000, guid: 3ca4c4079b60efa48a7ee6d0cdf015c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak.003
+    second: {fileID: 2100000, guid: d205f84d52c1ff342b7b78ba73ae6ef4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak.004
+    second: {fileID: 2100000, guid: 46e3327397d3c1149920fe9bb27f5004, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -194,6 +219,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Rowanberry.002
     second: {fileID: 2100000, guid: aa5d2112301f690438887ca6cfa74f2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rowanberry.003
+    second: {fileID: 2100000, guid: b3c2f3365d2a5674eb170d568bcb8b83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rowanberry.004
+    second: {fileID: 2100000, guid: 98405d394f0860049b2e986518ed2080, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
