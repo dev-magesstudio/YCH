@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Kavi_TestScene.unity
     guid: 456424e78ff434aadb435e94a037efc1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StartScene.unity
     guid: 62570d4a4b7ed4737a3c410788420751
   - enabled: 1

@@ -17,14 +17,19 @@ public class LogoShaderController : MonoBehaviour
     
     public bool effectOnStart = true;
 
-private Coroutine thresholdCoroutine;
+    private Coroutine thresholdCoroutine;
 
     // Start is called before the first frame update
     void Start()
     {
+        if(material.HasProperty(thresholdProperty)){
+            material.SetFloat(thresholdProperty,startThreshold);
+        }
+        
         if(effectOnStart){
             if(material.HasProperty(thresholdProperty)){
             thresholdCoroutine = StartCoroutine(ChangeThresholdOverTime(startThreshold, endThreshold, duration));
+            //PlayAudio();
             Invoke("PlayAudio",2); //Little hardcoded to wait for the model to load first //Can work on it later to get a proper workaround
         }
         else{
@@ -33,6 +38,7 @@ private Coroutine thresholdCoroutine;
         }
        
     }
+
 
     public void PlayAudio(){
                 if(audioSource != null){
@@ -74,6 +80,7 @@ private Coroutine thresholdCoroutine;
         if(material.HasProperty(thresholdProperty)){
             thresholdCoroutine = StartCoroutine(ChangeThresholdOverTime(startThreshold, endThreshold, duration));
             Invoke("PlayAudio",2); //Little hardcoded to wait for the model to load first //Can work on it later to get a proper workaround
+            //PlayAudio();
         }
         else{
             Debug.Log("No such property in material found!");
@@ -83,7 +90,7 @@ private Coroutine thresholdCoroutine;
     public void ReverseEffect(){
         if(material.HasProperty(thresholdProperty)){
             thresholdCoroutine = StartCoroutine(ChangeThresholdOverTime(endThreshold, startThreshold, duration));
-            Invoke("PlayAudio",2); //Little hardcoded to wait for the model to load first //Can work on it later to get a proper workaround
+            //Invoke("PlayAudio",2); //Little hardcoded to wait for the model to load first //Can work on it later to get a proper workaround
         }
         else{
             Debug.Log("No such property in material found!");
