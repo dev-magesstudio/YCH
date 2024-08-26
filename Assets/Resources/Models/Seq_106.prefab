@@ -1479,6 +1479,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: seq_106_GlobalLOC_PUB
       objectReference: {fileID: 0}
+    - target: {fileID: 6033138701061703348, guid: 786a47f2082374fd7a7e9961f68e23bd,
+        type: 3}
+      propertyPath: m_Events.m_Events.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033138701061703348, guid: 786a47f2082374fd7a7e9961f68e23bd,
+        type: 3}
+      propertyPath: m_Events.m_Events.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033138701061703348, guid: 786a47f2082374fd7a7e9961f68e23bd,
+        type: 3}
+      propertyPath: m_Events.m_Events.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033138701061703348, guid: 786a47f2082374fd7a7e9961f68e23bd,
+        type: 3}
+      propertyPath: m_Events.m_Events.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6697790904904729359, guid: 786a47f2082374fd7a7e9961f68e23bd,
         type: 3}
       propertyPath: m_IsActive

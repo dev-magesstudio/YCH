@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Kavi_TestScene.unity
     guid: 456424e78ff434aadb435e94a037efc1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StartScene.unity
     guid: 62570d4a4b7ed4737a3c410788420751
   - enabled: 1
@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Demo_MainScene2.unity
     guid: 6cf17e214f4d649c09ef3d7349372ced
+  - enabled: 0
+    path: Assets/Scenes/RecordingScene.unity
+    guid: 9f167301842164bdab8ce45cec580f56
   m_configObjects:
     UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: 04081641d8b5d4dd19ccf8f1e762dd6c,
       type: 2}

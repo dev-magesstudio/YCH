@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,13 +11,18 @@ public class InstantiatingModel : MonoBehaviour
     public Vector3 loadPos = new Vector3(0,0,0);
     List<GameObject> go = new ();
 
+    //public List<GameObject> prefabsToBeLoaded = new();
+    //public List<Vector3> loadPositions = new();
+    //public int modelCount;
 
+    
     //public GameObject prefabToLoad;
     //public int currentModelIndex = 0;
 
-public void LoadPrefab(GameObject prefabToLoad){
+public void LoadPrefab(int modelCount){
     //StartCoroutine(LoadNextModel(prefabToLoad));
-    Instantiate(prefabToLoad, loadPos, quaternion.identity);
+    ModelInstantiatorManager.instance.LoadPrefabsFromName(modelCount);
+    //Instantiate(prefabsToBeLoaded[index], loadPositions[index], quaternion.identity);
     
 } 
 
@@ -28,11 +34,17 @@ public void DestroyPrefab(){
     foreach(GameObject objectToBeDestroyed in GameObject.FindGameObjectsWithTag("3DModel")){
         go.Add(objectToBeDestroyed);
     }
+    // for(int i=0; i<go.Count; i++){
+    //     Resources.UnloadAsset(go[i].gameObject);
+    // }
    Destroy(go[0]);
-   //go[0].SetActive(false);
-   Resources.UnloadUnusedAssets();
-   //EditorUtility.UnloadUnusedAssetsImmediate();
+    //ModelInstantiatorManager.instance.prefabsToBeLoaded[index] = null;
+    
     go.Clear();
+    GC.Collect();
+   //go[0].SetActive(false);
+    Resources.UnloadUnusedAssets();
+   //EditorUtility.UnloadUnusedAssetsImmediate();
     
 }
 public void DestroySeqOneAndTwoPrefabs(){
@@ -44,9 +56,12 @@ public void DestroySeqOneAndTwoPrefabs(){
     Destroy(go[1].gameObject);
     //go[0].SetActive(false);
     //go[1].SetActive(false);
-    Resources.UnloadUnusedAssets();
+    //Resources.UnloadUnusedAssets();
     //EditorUtility.UnloadUnusedAssetsImmediate();
 
     go.Clear();
+    GC.Collect();
+   //go[0].SetActive(false);
+    Resources.UnloadUnusedAssets();
 }
 }
