@@ -3,42 +3,7 @@ guid: 6489515d99383e14ca1cf67054d9a120
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: GlobeClouds
-    second: {fileID: 2100000, guid: 883da22f82db26a45aa27e650f6dca51, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Globe_Base
-    second: {fileID: 2100000, guid: af8f768d587e34447bc841fd7deb7644, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Globe_CNT_ASEAN
-    second: {fileID: 2100000, guid: 47a65512b630eff41873f529087ca786, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Globe_CNT_REST_A
-    second: {fileID: 2100000, guid: 4701b30c28d8e254f8534f858a36e12e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Globe_CNT_REST_B
-    second: {fileID: 2100000, guid: db956d11713eba44ba5fed59457575aa, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Globe_CNT_VIETNAM
-    second: {fileID: 2100000, guid: 792cf8894e6938744a8ed582a8fe452a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Globe_Lines
-    second: {fileID: 2100000, guid: aa18017edfb28d640b68e0379f19e1df, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

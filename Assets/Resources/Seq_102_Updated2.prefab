@@ -1329,6 +1329,7 @@ MonoBehaviour:
       m_Calls: []
   audioSource: {fileID: 0}
   effectOnStart: 1
+  isLastScene: 0
 --- !u!1 &2749249416952455388
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,7 +2105,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4147493865687150164
 Transform:
   m_ObjectHideFlags: 0
@@ -2164,6 +2165,7 @@ MonoBehaviour:
       m_Calls: []
   audioSource: {fileID: 0}
   effectOnStart: 1
+  isLastScene: 0
 --- !u!1 &3503980169808644956
 GameObject:
   m_ObjectHideFlags: 0
@@ -5055,6 +5057,7 @@ MonoBehaviour:
       m_Calls: []
   audioSource: {fileID: 0}
   effectOnStart: 1
+  isLastScene: 0
 --- !u!1 &7823457637107836093
 GameObject:
   m_ObjectHideFlags: 0
@@ -6046,6 +6049,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 9122468199424163790}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8aea3d8d7d3484a958b52b961b99c993,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6665577512907586673}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8aea3d8d7d3484a958b52b961b99c993,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7864124826416754405}
     - targetCorrespondingSourceObject: {fileID: 6824746026288583490, guid: 8aea3d8d7d3484a958b52b961b99c993,
         type: 3}
       insertIndex: -1
@@ -6068,7 +6079,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498959540665977625}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37fd8a4fb151f41c5aaee183a485953d, type: 3}
   m_Name: 
@@ -6083,6 +6094,54 @@ MonoBehaviour:
       m_Calls: []
   audioSource: {fileID: 0}
   effectOnStart: 1
+  isLastScene: 0
+--- !u!114 &6665577512907586673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498959540665977625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faad7c498bbee4f69a30b5ce97d77cf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetMaterials:
+  - {fileID: 2100000, guid: 996c8c3812a0c4fea8313a8efe36cadc, type: 2}
+  duration: 1
+  eventOnCompletion:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7864124826416754405}
+        m_TargetAssemblyTypeName: TextFadeOut, Assembly-CSharp
+        m_MethodName: StartFadeOut
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  invokeAfterTime: 0.3
+--- !u!114 &7864124826416754405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498959540665977625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e58e42c85392e415cb09a0c6329608c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetMaterials:
+  - {fileID: 2100000, guid: 996c8c3812a0c4fea8313a8efe36cadc, type: 2}
+  duration: 1
+  shouldBeOpaqueInBeginning: 0
 --- !u!4 &983888787140530595 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8aea3d8d7d3484a958b52b961b99c993,
@@ -6237,6 +6296,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 4142904143841040902}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9d197103e2cf54562aa9e711a2a9662b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4622563918174440101}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9d197103e2cf54562aa9e711a2a9662b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2077753312902036824}
     - targetCorrespondingSourceObject: {fileID: 6824746026288583490, guid: 9d197103e2cf54562aa9e711a2a9662b,
         type: 3}
       insertIndex: -1
@@ -6283,7 +6350,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3217252387708958217}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37fd8a4fb151f41c5aaee183a485953d, type: 3}
   m_Name: 
@@ -6298,6 +6365,54 @@ MonoBehaviour:
       m_Calls: []
   audioSource: {fileID: 0}
   effectOnStart: 1
+  isLastScene: 0
+--- !u!114 &4622563918174440101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3217252387708958217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faad7c498bbee4f69a30b5ce97d77cf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetMaterials:
+  - {fileID: 2100000, guid: 996c8c3812a0c4fea8313a8efe36cadc, type: 2}
+  duration: 2.5
+  eventOnCompletion:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2077753312902036824}
+        m_TargetAssemblyTypeName: TextFadeOut, Assembly-CSharp
+        m_MethodName: StartFadeOut
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  invokeAfterTime: 0
+--- !u!114 &2077753312902036824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3217252387708958217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e58e42c85392e415cb09a0c6329608c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetMaterials:
+  - {fileID: 2100000, guid: 996c8c3812a0c4fea8313a8efe36cadc, type: 2}
+  duration: 1
+  shouldBeOpaqueInBeginning: 0
 --- !u!1 &9138592594213132314 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6824746026288583490, guid: 9d197103e2cf54562aa9e711a2a9662b,
@@ -6428,6 +6543,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5272504812836807608}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c293673c613044461a8fef92ef35c373,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4286756221590063227}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c293673c613044461a8fef92ef35c373,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4890660242289743931}
     - targetCorrespondingSourceObject: {fileID: 6824746026288583490, guid: c293673c613044461a8fef92ef35c373,
         type: 3}
       insertIndex: -1
@@ -6474,7 +6597,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6721975728169946511}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37fd8a4fb151f41c5aaee183a485953d, type: 3}
   m_Name: 
@@ -6489,6 +6612,54 @@ MonoBehaviour:
       m_Calls: []
   audioSource: {fileID: 0}
   effectOnStart: 1
+  isLastScene: 0
+--- !u!114 &4286756221590063227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6721975728169946511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faad7c498bbee4f69a30b5ce97d77cf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetMaterials:
+  - {fileID: 2100000, guid: 996c8c3812a0c4fea8313a8efe36cadc, type: 2}
+  duration: 1
+  eventOnCompletion:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4890660242289743931}
+        m_TargetAssemblyTypeName: TextFadeOut, Assembly-CSharp
+        m_MethodName: StartFadeOut
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  invokeAfterTime: 4
+--- !u!114 &4890660242289743931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6721975728169946511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e58e42c85392e415cb09a0c6329608c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetMaterials:
+  - {fileID: 2100000, guid: 996c8c3812a0c4fea8313a8efe36cadc, type: 2}
+  duration: 1
+  shouldBeOpaqueInBeginning: 0
 --- !u!1 &8799829620716987747 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3141101260113499581, guid: c293673c613044461a8fef92ef35c373,
@@ -6619,6 +6790,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 6497384780537186956}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4fe135462140c475f895bd35410b51ed,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5121212852491280337}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4fe135462140c475f895bd35410b51ed,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 775025596263992785}
     - targetCorrespondingSourceObject: {fileID: 6824746026288583490, guid: 4fe135462140c475f895bd35410b51ed,
         type: 3}
       insertIndex: -1
@@ -6683,7 +6862,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8800129365987694666}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37fd8a4fb151f41c5aaee183a485953d, type: 3}
   m_Name: 
@@ -6698,3 +6877,51 @@ MonoBehaviour:
       m_Calls: []
   audioSource: {fileID: 0}
   effectOnStart: 1
+  isLastScene: 0
+--- !u!114 &5121212852491280337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8800129365987694666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faad7c498bbee4f69a30b5ce97d77cf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetMaterials:
+  - {fileID: 2100000, guid: 996c8c3812a0c4fea8313a8efe36cadc, type: 2}
+  duration: 1
+  eventOnCompletion:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 775025596263992785}
+        m_TargetAssemblyTypeName: TextFadeOut, Assembly-CSharp
+        m_MethodName: StartFadeOut
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  invokeAfterTime: 0.5
+--- !u!114 &775025596263992785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8800129365987694666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e58e42c85392e415cb09a0c6329608c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetMaterials:
+  - {fileID: 2100000, guid: 996c8c3812a0c4fea8313a8efe36cadc, type: 2}
+  duration: 1
+  shouldBeOpaqueInBeginning: 0

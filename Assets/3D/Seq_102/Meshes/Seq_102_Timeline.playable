@@ -118,7 +118,7 @@ MonoBehaviour:
     m_Start: 14.466666666666667
     m_ClipIn: 0
     m_Asset: {fileID: 8220843843081894933}
-    m_Duration: 4.609269754278161
+    m_Duration: 5.299999999999999
     m_TimeScale: 1
     m_ParentTrack: {fileID: -9177095403359552408}
     m_EaseInDuration: 0
@@ -385,10 +385,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 27.92673469387755
+    m_Start: 30.75
     m_ClipIn: 0
     m_Asset: {fileID: 8469455211982289047}
-    m_Duration: 27.606598639455783
+    m_Duration: 24.78333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7586944454483829011}
     m_EaseInDuration: 0
@@ -531,7 +531,7 @@ MonoBehaviour:
     m_Start: 22.988572628578794
     m_ClipIn: 0
     m_Asset: {fileID: 8000252276170258994}
-    m_Duration: 1.1504069632579395
+    m_Duration: 1.511427371421206
     m_TimeScale: 1
     m_ParentTrack: {fileID: -6750438945994863854}
     m_EaseInDuration: 0
@@ -931,7 +931,7 @@ MonoBehaviour:
     m_Start: 25.033333333333335
     m_ClipIn: 0
     m_Asset: {fileID: -3499719331248696704}
-    m_Duration: 2.456190476190475
+    m_Duration: 4.016666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: -5589540288185990013}
     m_EaseInDuration: 0
@@ -1094,7 +1094,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 29.6
+    m_Start: 29.49612244897959
     m_ClipIn: 0
     m_Asset: {fileID: -5873142374973252220}
     m_Duration: 1.253877551020409
@@ -2356,7 +2356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: 
-  m_Time: 79.9
+  m_Time: 78.48333333333333
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: af925aadcc3b342e9bf93206b24df55a, type: 2}

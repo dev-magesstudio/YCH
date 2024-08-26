@@ -15,15 +15,15 @@ public class InstantiatingModel : MonoBehaviour
     //public int currentModelIndex = 0;
 
 public void LoadPrefab(GameObject prefabToLoad){
-    StartCoroutine(LoadNextModel(prefabToLoad));
-    //Instantiate(prefabToLoad, loadPos, quaternion.identity);
+    //StartCoroutine(LoadNextModel(prefabToLoad));
+    Instantiate(prefabToLoad, loadPos, quaternion.identity);
     
 } 
 
-IEnumerator LoadNextModel(GameObject prefabModel){
-    yield return null;
-    Instantiate(prefabModel, loadPos, quaternion.identity);
-}
+// IEnumerator LoadNextModel(GameObject prefabModel){
+//     yield return null;
+//     Instantiate(prefabModel, loadPos, quaternion.identity);
+// }
 public void DestroyPrefab(){
     foreach(GameObject objectToBeDestroyed in GameObject.FindGameObjectsWithTag("3DModel")){
         go.Add(objectToBeDestroyed);

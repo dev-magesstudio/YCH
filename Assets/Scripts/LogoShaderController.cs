@@ -16,21 +16,22 @@ public class LogoShaderController : MonoBehaviour
     public AudioSource audioSource;
     
     public bool effectOnStart = true;
+    public bool isLastScene = false;
 
     private Coroutine thresholdCoroutine;
 
     // Start is called before the first frame update
     void Start()
     {
-        if(material.HasProperty(thresholdProperty)){
+        if(material.HasProperty(thresholdProperty) && !isLastScene){
             material.SetFloat(thresholdProperty,startThreshold);
         }
         
         if(effectOnStart){
             if(material.HasProperty(thresholdProperty)){
             thresholdCoroutine = StartCoroutine(ChangeThresholdOverTime(startThreshold, endThreshold, duration));
-            //PlayAudio();
-            Invoke("PlayAudio",2); //Little hardcoded to wait for the model to load first //Can work on it later to get a proper workaround
+            PlayAudio();
+            //Invoke("PlayAudio",2); //Little hardcoded to wait for the model to load first //Can work on it later to get a proper workaround
         }
         else{
             Debug.Log("No such property in material found!");
@@ -79,8 +80,8 @@ public class LogoShaderController : MonoBehaviour
     public void StartEffect(){
         if(material.HasProperty(thresholdProperty)){
             thresholdCoroutine = StartCoroutine(ChangeThresholdOverTime(startThreshold, endThreshold, duration));
-            Invoke("PlayAudio",2); //Little hardcoded to wait for the model to load first //Can work on it later to get a proper workaround
-            //PlayAudio();
+            //Invoke("PlayAudio",2); //Little hardcoded to wait for the model to load first //Can work on it later to get a proper workaround
+            PlayAudio();
         }
         else{
             Debug.Log("No such property in material found!");

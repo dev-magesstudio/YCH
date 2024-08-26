@@ -1314,6 +1314,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8816039201603061445, guid: 7047c0591154643ac86224f4107ab93d,
+        type: 3}
+      propertyPath: targetMaterials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816039201603061445, guid: 7047c0591154643ac86224f4107ab93d,
+        type: 3}
+      propertyPath: targetMaterials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 554abf4ffaced49388ae09e6009e7c3e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2428,6 +2438,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8100641601221999093}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 64349c419500b40e3a6243abb7cf4c26,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4910499388379599778}
   m_SourcePrefab: {fileID: 100100000, guid: 64349c419500b40e3a6243abb7cf4c26, type: 3}
 --- !u!1 &8127961287788597936 stripped
 GameObject:
@@ -2468,8 +2482,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetMaterials:
   - {fileID: 2100000, guid: 42d5944945894457b8ca992baa4a4cbe, type: 2}
+  - {fileID: 2100000, guid: 57be1b8408857476eae7781bed1c194d, type: 2}
+  - {fileID: 2100000, guid: fe357c68bc36f4bdb97289831764a1ca, type: 2}
+  - {fileID: 2100000, guid: 0b2a16292feee4033a1dd1e553a9ebe8, type: 2}
+  - {fileID: 2100000, guid: 3b98432b8ef5d4f1185dcbd33d4bf317, type: 2}
+  - {fileID: 2100000, guid: c2d9762cc336748f281b8c1637f7f8fb, type: 2}
   duration: 1
   shouldBeOpaqueInBeginning: 0
+--- !u!114 &4910499388379599778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127961287788597936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 5197c6a99768c4b84a7b5f4122cc6593, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8100641601221999093}
+          m_TargetAssemblyTypeName: TextFadeOut, Assembly-CSharp
+          m_MethodName: StartFadeOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &8901225122702313482 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 64349c419500b40e3a6243abb7cf4c26,

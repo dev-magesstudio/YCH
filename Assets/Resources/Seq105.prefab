@@ -1488,7 +1488,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1993581437359836467}
           m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
-          m_MethodName: DestroyPrefab
+          m_MethodName: DestroySeqOneAndTwoPrefabs
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
