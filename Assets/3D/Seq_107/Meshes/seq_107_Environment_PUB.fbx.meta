@@ -32,6 +32,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Prk_FloorBase
+    second: {fileID: 2100000, guid: f331dff0fb9a9c74d8a63ab05654a76e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Rowanberry.003
     second: {fileID: 2100000, guid: 3a9304a0f3d8f2243b10139252c3fc08, type: 2}
   - first:
