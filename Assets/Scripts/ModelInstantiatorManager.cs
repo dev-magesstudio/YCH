@@ -21,6 +21,7 @@ public class ModelInstantiatorManager : MonoBehaviour
     }
      public List<GameObject> prefabsToBeLoaded = new();
     public List<Vector3> loadPositions = new();
+    public Vector3 loadPos = new Vector3(0,0.5f,2);
     public void LoadPrefab(int index){
     //StartCoroutine(LoadNextModel(prefabToLoad));
     Instantiate(prefabsToBeLoaded[index], loadPositions[index], quaternion.identity);

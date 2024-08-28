@@ -34,17 +34,10 @@ public void DestroyPrefab(){
     foreach(GameObject objectToBeDestroyed in GameObject.FindGameObjectsWithTag("3DModel")){
         go.Add(objectToBeDestroyed);
     }
-    // for(int i=0; i<go.Count; i++){
-    //     Resources.UnloadAsset(go[i].gameObject);
-    // }
-   Destroy(go[0]);
-    //ModelInstantiatorManager.instance.prefabsToBeLoaded[index] = null;
-    
+   Destroy(go[0]);    
     go.Clear();
     GC.Collect();
-   //go[0].SetActive(false);
     Resources.UnloadUnusedAssets();
-   //EditorUtility.UnloadUnusedAssetsImmediate();
     
 }
 public void DestroySeqOneAndTwoPrefabs(){
@@ -54,14 +47,9 @@ public void DestroySeqOneAndTwoPrefabs(){
     }
     Destroy(go[0].gameObject);
     Destroy(go[1].gameObject);
-    //go[0].SetActive(false);
-    //go[1].SetActive(false);
-    //Resources.UnloadUnusedAssets();
-    //EditorUtility.UnloadUnusedAssetsImmediate();
 
     go.Clear();
     GC.Collect();
-   //go[0].SetActive(false);
     Resources.UnloadUnusedAssets();
 }
 }

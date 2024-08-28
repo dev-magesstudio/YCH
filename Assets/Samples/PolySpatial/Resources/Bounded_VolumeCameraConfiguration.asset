@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Bounded_VolumeCameraConfiguration
   m_EditorClassIdentifier: 
   m_Mode: 0
-  m_OutputDimensions: {x: 1, y: 1, z: 1}
-  m_IsUniformScale: 0
+  m_OutputDimensions: {x: 2, y: 2, z: 2}
+  m_IsUniformScale: 1
