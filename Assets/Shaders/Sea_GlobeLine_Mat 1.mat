@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: YunnanLine_Mat
-  m_Shader: {fileID: -6465566751694194690, guid: ca4b27ed9225b49ad97fde6ba4be7443,
+  m_Name: Sea_GlobeLine_Mat 1
+  m_Shader: {fileID: -6465566751694194690, guid: 5f32213459d3446c3b3a56636f46beae,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -25,11 +25,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _EmmisionTex:
-        m_Texture: {fileID: 2800000, guid: 340c7c460f65347a496361c334847ce1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 522d22cf750a54fc08484c878ce62bf4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b1f12fb88219a46aba8a693a1b8a7410, type: 3}
+        m_Texture: {fileID: 2800000, guid: c47fa3aea17ef4c24aa2b361d8f8c4d9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -48,9 +48,9 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _VisibilityThreshold: -1.35
+    - _VisibilityThreshold: 0.31
     m_Colors:
-    - _Color: {r: 1, g: 0.7678805, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &2275089825229345865
 MonoBehaviour:

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GlobeLine_Mat
+  m_Name: Air_Land_GlobeLine_Mat
   m_Shader: {fileID: -6465566751694194690, guid: 383f4c84cabb648fd8d61d3cae695bfd,
     type: 3}
   m_Parent: {fileID: 0}
