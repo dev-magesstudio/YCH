@@ -57,6 +57,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Prk_FloorBase
+    second: {fileID: 2100000, guid: 3e66c343c93981c4e968c6ad8b4aa483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Rowanberry.003
     second: {fileID: 2100000, guid: 993e0ebe573b8344da68d7e4875ace22, type: 2}
   - first:
@@ -64,6 +69,21 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Rowanberry.004
     second: {fileID: 2100000, guid: 4a6ae9fdfb520e5478d15979f598c66a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sidewalk_Base
+    second: {fileID: 2100000, guid: 270d95e77d95e6342b8ca1e973c26c97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sidewalk_CurbeB
+    second: {fileID: 2100000, guid: 1fe12b22c2b96f54db8b3023b79238bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sidewalk_Grass
+    second: {fileID: 2100000, guid: 3250583f100c67748972efcd2ad3cac1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
