@@ -3,7 +3,27 @@ guid: c3fef4ce1edfb344e94cdbf2786464e4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LaddersYellow_SRF
+    second: {fileID: 2100000, guid: 8c721ed2d190e074f85f4f9736ab776d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RalilingRed_SRF
+    second: {fileID: 2100000, guid: 2d926bc05c868da4e98c36bcc7e8899f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RalilingYellow_SRF
+    second: {fileID: 2100000, guid: a31b950a0bf2dc645be237fc8264bd84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StairsYellow_SRF
+    second: {fileID: 2100000, guid: ced55ee69019c954f9ebda22facd0934, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
