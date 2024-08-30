@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class TextFadeOut : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class TextFadeOut : MonoBehaviour
 
     public bool shouldBeOpaqueInBeginning = false;
     private bool isFadingOut = false;   // Flag to control the fade-out process
+
+    public UnityEvent eventOnFadeOutComplete;
     // Start is called before the first frame update
     void Start()
     {
@@ -60,6 +63,9 @@ public class TextFadeOut : MonoBehaviour
                 if (percentageComplete >= 1.0f)
                 {
                     isFadingOut = false;
+                    if(eventOnFadeOutComplete!=null){
+                        eventOnFadeOutComplete.Invoke();
+                    }
                 }
             }
         }

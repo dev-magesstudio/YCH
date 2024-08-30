@@ -135,6 +135,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ReferenceCube
       objectReference: {fileID: 0}
+    - target: {fileID: 5854864653263359145, guid: f6cdb089409bb4ea0bce8c0cb341ee42,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6099956761538587056, guid: f6cdb089409bb4ea0bce8c0cb341ee42,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -462,6 +467,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6464723338458067147, guid: 3852c52ca29824af287804fb422b3049,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7690492817589600959, guid: 3852c52ca29824af287804fb422b3049,
         type: 3}
