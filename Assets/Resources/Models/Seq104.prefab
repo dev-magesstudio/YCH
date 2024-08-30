@@ -120,6 +120,8 @@ PlayableDirector:
     value: {fileID: 6710615375040339020}
   - key: {fileID: 2310464277942320494, guid: 685762f03b7aed24293aace2d2c9ef21, type: 2}
     value: {fileID: 4546158992653710595}
+  - key: {fileID: -1109089781018080722, guid: 685762f03b7aed24293aace2d2c9ef21, type: 2}
+    value: {fileID: 83892241797826181}
   m_ExposedReferences:
     m_References:
     - 1b3e1d5c0b844442987d711dadd6841f: {fileID: 0}
@@ -708,6 +710,9 @@ MonoBehaviour:
   - {fileID: 2100000, guid: d94efabe8c7ab40c7acb999dcc52b0bd, type: 2}
   duration: 1
   shouldBeOpaqueInBeginning: 0
+  eventOnFadeOutComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &3060571565595652950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -878,6 +883,9 @@ MonoBehaviour:
   - {fileID: 2100000, guid: a4b5f621115554a3bb6e4865bb7c48d9, type: 2}
   duration: 1
   shouldBeOpaqueInBeginning: 0
+  eventOnFadeOutComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &3311250610451387581 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a1148258e9214429dac96c52b2b41dad,
@@ -1040,6 +1048,9 @@ MonoBehaviour:
   - {fileID: 2100000, guid: f7c53d27f8eef4fbfa6c3b4170520946, type: 2}
   duration: 1
   shouldBeOpaqueInBeginning: 0
+  eventOnFadeOutComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &3626318807963130135
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1421,6 +1432,9 @@ MonoBehaviour:
   - {fileID: -948444750512478114, guid: 97aedb37f221d4edd83817a177bc0728, type: 3}
   duration: 1
   shouldBeOpaqueInBeginning: 0
+  eventOnFadeOutComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &5140459708007188600 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 97aedb37f221d4edd83817a177bc0728,
@@ -1610,6 +1624,9 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 84ce8b9fb2f89473891f8f7fa23bb300, type: 2}
   duration: 1
   shouldBeOpaqueInBeginning: 0
+  eventOnFadeOutComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &5640492190436268227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2344,3 +2361,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 5789f15728e674caaa0ea44bf56c25b5, type: 2}
   duration: 1
   shouldBeOpaqueInBeginning: 0
+  eventOnFadeOutComplete:
+    m_PersistentCalls:
+      m_Calls: []
