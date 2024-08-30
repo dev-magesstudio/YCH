@@ -998,7 +998,8 @@ PrefabInstance:
       value: seq_106_RumbasB_PUB
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -9222020223031246388, guid: d8249e20d64df184f96bd69601a96161, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d8249e20d64df184f96bd69601a96161,
@@ -1210,7 +1211,8 @@ PrefabInstance:
       value: seq_106_RumbasB_PUB (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -9222020223031246388, guid: d8249e20d64df184f96bd69601a96161, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d8249e20d64df184f96bd69601a96161,
