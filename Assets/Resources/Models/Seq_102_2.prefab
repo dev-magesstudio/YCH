@@ -614,11 +614,11 @@ GameObject:
   - component: {fileID: 2442619269369448881}
   m_Layer: 0
   m_Name: Seq_102_2
-  m_TagString: Untagged
+  m_TagString: 3DModel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2802172556293076113
 Transform:
   m_ObjectHideFlags: 0
@@ -1463,6 +1463,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 6068263399145035288}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5e1637fb94a238247b711bf6b95bd67e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1992426857765916967}
   m_SourcePrefab: {fileID: 100100000, guid: 5e1637fb94a238247b711bf6b95bd67e, type: 3}
 --- !u!4 &1180252829238475258 stripped
 Transform:
@@ -1497,6 +1501,51 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1992426857765916967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957598116540113728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: af925aadcc3b342e9bf93206b24df55a, type: 2}
+    - {fileID: 11400000, guid: 59c2f5d563dc245c280a35bbbf98060d, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8056882869391873739}
+          m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
+          m_MethodName: LoadPrefab
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8056882869391873739}
+          m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
+          m_MethodName: DestroyPrefab
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &2011704802540086170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1888,7 +1937,7 @@ PrefabInstance:
     - target: {fileID: 1717179852614905238, guid: a765e81b7ece14bfd97ae2d29842dfc5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.33
+      value: 1.072
       objectReference: {fileID: 0}
     - target: {fileID: 1717179852614905238, guid: a765e81b7ece14bfd97ae2d29842dfc5,
         type: 3}

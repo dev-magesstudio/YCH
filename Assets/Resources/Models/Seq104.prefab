@@ -1015,7 +1015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetMaterials:
   - {fileID: 2100000, guid: f7c53d27f8eef4fbfa6c3b4170520946, type: 2}
-  duration: 1
+  duration: 0.5
   eventOnCompletion:
     m_PersistentCalls:
       m_Calls:
@@ -1031,7 +1031,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  invokeAfterTime: 0.5
+  invokeAfterTime: 1
 --- !u!114 &7636969144484590427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1046,7 +1046,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetMaterials:
   - {fileID: 2100000, guid: f7c53d27f8eef4fbfa6c3b4170520946, type: 2}
-  duration: 1
+  duration: 0.5
   shouldBeOpaqueInBeginning: 0
   eventOnFadeOutComplete:
     m_PersistentCalls:
@@ -1398,7 +1398,7 @@ MonoBehaviour:
   targetMaterials:
   - {fileID: -6178696724982381735, guid: 97aedb37f221d4edd83817a177bc0728, type: 3}
   - {fileID: -948444750512478114, guid: 97aedb37f221d4edd83817a177bc0728, type: 3}
-  duration: 1
+  duration: 0.5
   eventOnCompletion:
     m_PersistentCalls:
       m_Calls:
@@ -1414,7 +1414,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  invokeAfterTime: 2
+  invokeAfterTime: 1
 --- !u!114 &4690813913187309416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1430,7 +1430,7 @@ MonoBehaviour:
   targetMaterials:
   - {fileID: -6178696724982381735, guid: 97aedb37f221d4edd83817a177bc0728, type: 3}
   - {fileID: -948444750512478114, guid: 97aedb37f221d4edd83817a177bc0728, type: 3}
-  duration: 1
+  duration: 0.5
   shouldBeOpaqueInBeginning: 0
   eventOnFadeOutComplete:
     m_PersistentCalls:
@@ -1591,7 +1591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetMaterials:
   - {fileID: 2100000, guid: 84ce8b9fb2f89473891f8f7fa23bb300, type: 2}
-  duration: 1
+  duration: 0.5
   eventOnCompletion:
     m_PersistentCalls:
       m_Calls:
@@ -1607,7 +1607,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  invokeAfterTime: 0.2
+  invokeAfterTime: 1.5
 --- !u!114 &519584643856721137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1622,7 +1622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetMaterials:
   - {fileID: 2100000, guid: 84ce8b9fb2f89473891f8f7fa23bb300, type: 2}
-  duration: 1
+  duration: 0.5
   shouldBeOpaqueInBeginning: 0
   eventOnFadeOutComplete:
     m_PersistentCalls:

@@ -142,9 +142,6 @@ PlayerSettings:
   bundleVersion: 0.1.0
   preloadedAssets:
   - {fileID: 11400000, guid: 490f30f928a9e48ca9b90e447524da8e, type: 2}
-  - {fileID: 4000401938160599835, guid: 32fe9ee24e8ea49bd8dbff7864fffd89, type: 2}
-  - {fileID: 11400000, guid: bdf9e870efefa4a8b851e01778ddec28, type: 2}
-  - {fileID: 11400000, guid: 7c99f14539c324fe6a24df1d018fe70a, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -935,6 +932,6 @@ PlayerSettings:
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
-  platformRequiresReadableAssets: 1
+  platformRequiresReadableAssets: 0
   virtualTexturingSupportEnabled: 0
   insecureHttpOption: 0
