@@ -35,18 +35,18 @@ public void DestroyPrefab(){
         go.Add(objectToBeDestroyed);
     }
    Destroy(go[0]);    
-    go.Clear();
+    //go.Clear();
     GC.Collect();
     Resources.UnloadUnusedAssets();
     
 }
-public void DestroySeqOneAndTwoPrefabs(){
+public void DestroyCloudPrefab(){
     
    foreach(GameObject objectToBeDestroyed in GameObject.FindGameObjectsWithTag("3DModel")){
         go.Add(objectToBeDestroyed);
     }
-    Destroy(go[0].gameObject);
     Destroy(go[1].gameObject);
+    //Destroy(go[1].gameObject);
 
     go.Clear();
     GC.Collect();

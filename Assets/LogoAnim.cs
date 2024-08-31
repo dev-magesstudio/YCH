@@ -7,6 +7,8 @@ public class LogoAnim : MonoBehaviour
     public TextFadeOut logoAnimController;
     public Animator logoAnimator;
 
+    public GameObject quitBtn;
+
 
     
     // Start is called before the first frame update
@@ -17,6 +19,12 @@ public class LogoAnim : MonoBehaviour
 
     void OnAnimationComplete(){
         logoAnimController.StartFadeOut();
+    }
+
+    void OnAnimationCompleteForQuitBtn(){
+        if(quitBtn!= null){
+            quitBtn.SetActive(true);
+        }
     }
     // Update is called once per frame
     void Update()

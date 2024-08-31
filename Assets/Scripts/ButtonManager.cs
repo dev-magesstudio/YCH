@@ -32,11 +32,17 @@ public class ButtonManager : HubButton
         if(buttonClickAudio != null){
             buttonClickAudio.Play();
         }
-        StartCoroutine(InvokeEventAfterDelay());
+        if(eventOnButtonClickWithDelay!=null){
+            StartCoroutine(InvokeEventAfterDelay());
+        }
 
-        eventOnButtonClick.Invoke();
+        if(eventOnButtonClick!=null){
+           eventOnButtonClick.Invoke();
+        }
 
-        drone.SetBool(parameterName, true);
+        if(drone!=null){
+           drone.SetBool(parameterName, true);
+        }
        
         
 
@@ -52,7 +58,10 @@ public class ButtonManager : HubButton
 
         }
 
-  
+    
+    public void QuitApplication(){
+        Application.Quit();
+    }
 
 
 }
