@@ -693,10 +693,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 12
+    m_Start: 11.53000487278526
     m_ClipIn: 0
     m_Asset: {fileID: -8056151812013629462}
-    m_Duration: 2
+    m_Duration: 2.5033284605480723
     m_TimeScale: 1
     m_ParentTrack: {fileID: -6178071622176328328}
     m_EaseInDuration: 0
@@ -2440,7 +2440,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 13
+    m_Start: 12.23000487278526
     m_ClipIn: 0
     m_Asset: {fileID: -753258283377350673}
     m_Duration: 0.75
@@ -2506,7 +2506,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 13
+    m_PreExtrapolationTime: 12.23000487278526
     m_DisplayName: LeafAnim
   m_Markers:
     m_Objects: []

@@ -1464,7 +1464,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  invokeAfterTime: 1
+  invokeAfterTime: 1.5
 --- !u!114 &4690813913187309416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3029,7 +3029,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3001e3ab51555427588127813da8b6f3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.88
+      value: -1.09
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3001e3ab51555427588127813da8b6f3,
         type: 3}
