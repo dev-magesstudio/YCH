@@ -61,7 +61,7 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _VisibilityThreshold: 5
+    - _VisibilityThreshold: 4.159688
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmmissionColor: {r: 0, g: 0.83314, b: 11.31371, a: 0}

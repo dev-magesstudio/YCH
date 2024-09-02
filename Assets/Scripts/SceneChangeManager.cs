@@ -10,7 +10,9 @@ public class SceneChangeManager : MonoBehaviour
     }
     public void SwitchToScene(int sceneIndex)
     {
-        SceneManager.LoadScene(sceneIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    
 
 }

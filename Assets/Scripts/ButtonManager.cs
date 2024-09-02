@@ -44,11 +44,6 @@ public class ButtonManager : HubButton
            drone.SetBool(parameterName, true);
         }
        
-        
-
-
-
-
     }
 
 
