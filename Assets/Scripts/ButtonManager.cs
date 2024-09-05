@@ -79,7 +79,8 @@ public class ButtonManager : HubButton
              switch (spatialPointerState.phase){
 
                 case SpatialPointerPhase.Began:
-                  if(buttonClickAudio != null){
+                case SpatialPointerPhase.Moved:
+                if(buttonClickAudio != null){
                         buttonClickAudio.Play();
                      }
                 if(eventOnButtonClickWithDelay!=null){

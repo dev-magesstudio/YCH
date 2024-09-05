@@ -7,6 +7,7 @@ using UnityEngine.Scripting;
 public class AudioManager : MonoBehaviour
 {
     AudioSource audioSource;
+    public float fadeDuration = 1.0f;
 
     public void IncreaseVolume(){
         audioSource.volume = 0.8f;
@@ -24,6 +25,28 @@ public class AudioManager : MonoBehaviour
 
     public void StopSound(){
         audioSource.Stop();
+    }
+
+    public void FadeOutSound(){
+       StartCoroutine(FadeOutCoroutine());
+
+    }
+
+    private IEnumerator FadeOutCoroutine()
+    {
+        float startVolume = audioSource.volume;
+
+        // Gradually reduce the volume
+        while (audioSource.volume > 0)
+        {
+            audioSource.volume -= startVolume * Time.deltaTime / fadeDuration;
+
+            yield return null;  // Wait until the next frame
+        }
+
+        // Stop the audio once the fade-out is complete
+        audioSource.Stop();
+        audioSource.volume = startVolume;  // Reset volume to its original value
     }
     
     // Start is called before the first frame update

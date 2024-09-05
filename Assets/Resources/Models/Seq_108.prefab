@@ -223,6 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0a6c9945638847cdbbca6a2756461aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeDuration: 2
 --- !u!114 &2311641566656030265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1531,7 +1532,7 @@ PrefabInstance:
     - target: {fileID: 5536490633640155248, guid: 9461467028dda447a90b06ea5baa8681,
         type: 3}
       propertyPath: m_Events.m_Events.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StopSound
+      value: FadeOutSound
       objectReference: {fileID: 0}
     - target: {fileID: 5536490633640155248, guid: 9461467028dda447a90b06ea5baa8681,
         type: 3}
