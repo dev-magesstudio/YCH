@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Demo_MainScene.unity
     guid: 3a8d800a9f5674634ad12dcb72bf8724
   - enabled: 0
+    path: Assets/Scenes/Demo_MainScene2.unity
+    guid: 6cf17e214f4d649c09ef3d7349372ced
+  - enabled: 0
     path: Assets/Scenes/Scene2.unity
     guid: dcf087ae788c34e3f831ed8eb8fa0f99
   - enabled: 0
@@ -32,9 +35,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/IndividualModelTestScene.unity
     guid: a249322ed595f48ec91145c0f4d093cb
-  - enabled: 0
-    path: Assets/Scenes/Demo_MainScene2.unity
-    guid: 6cf17e214f4d649c09ef3d7349372ced
   - enabled: 0
     path: Assets/Scenes/RecordingScene.unity
     guid: 9f167301842164bdab8ce45cec580f56

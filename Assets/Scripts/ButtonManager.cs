@@ -1,9 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
-using PolySpatial.Samples;
+using Unity.PolySpatial.InputDevices;
 using UnityEngine;
+using UnityEngine.InputSystem.EnhancedTouch;
+using UnityEngine.InputSystem.LowLevel;
+using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 using UnityEngine.Events;
-using UnityEngine.XR.ARFoundation;
+using TouchPhase = UnityEngine.InputSystem.TouchPhase;
+using PolySpatial.Samples;
+using System.Collections;
+
 
 
 public class ButtonManager : HubButton
@@ -27,24 +31,25 @@ public class ButtonManager : HubButton
     public string exitStateName;
     private bool isStateExited = false;
 
-    public override void Press(){
+//#if(UNITY_EDITOR)
+    // public override void Press(){
 
-        if(buttonClickAudio != null){
-            buttonClickAudio.Play();
-        }
-        if(eventOnButtonClickWithDelay!=null){
-            StartCoroutine(InvokeEventAfterDelay());
-        }
+    //     if(buttonClickAudio != null){
+    //         buttonClickAudio.Play();
+    //     }
+    //     if(eventOnButtonClickWithDelay!=null){
+    //         StartCoroutine(InvokeEventAfterDelay());
+    //     }
 
-        if(eventOnButtonClick!=null){
-           eventOnButtonClick.Invoke();
-        }
+    //     if(eventOnButtonClick!=null){
+    //        eventOnButtonClick.Invoke();
+    //     }
 
-        if(drone!=null){
-           drone.SetBool(parameterName, true);
-        }
-       
-    }
+    //     if(drone!=null){
+    //        drone.SetBool(parameterName, true);
+    //     }
+    // }
+   // #endif
 
 
     IEnumerator InvokeEventAfterDelay(){
@@ -56,6 +61,47 @@ public class ButtonManager : HubButton
     
     public void QuitApplication(){
         Application.Quit();
+    }
+
+     void OnEnable()
+    {
+        EnhancedTouchSupport.Enable();
+    }
+
+    void Update(){
+         foreach(var touch in Touch.activeTouches){
+            var spatialPointerState = EnhancedSpatialPointerSupport.GetPointerState(touch);
+
+            //Ignore indirect or direct pinch states
+            if (spatialPointerState.Kind == SpatialPointerKind.DirectPinch || spatialPointerState.Kind == SpatialPointerKind.IndirectPinch)
+                    continue;
+
+             switch (spatialPointerState.phase){
+
+                case SpatialPointerPhase.Began:
+                  if(buttonClickAudio != null){
+                        buttonClickAudio.Play();
+                     }
+                if(eventOnButtonClickWithDelay!=null){
+                StartCoroutine(InvokeEventAfterDelay());
+                }
+
+                if(eventOnButtonClick!=null){
+                eventOnButtonClick.Invoke();
+                }
+
+                if(drone!=null){
+                drone.SetBool(parameterName, true);
+                }
+                break;
+
+                //  case SpatialPointerPhase.Ended:
+                // // eventOnButtonRelease.Invoke();
+                // break;
+             }
+
+            
+        }
     }
 
 

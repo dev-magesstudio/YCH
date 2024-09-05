@@ -11,25 +11,14 @@ public class InstantiatingModel : MonoBehaviour
     public Vector3 loadPos = new Vector3(0,0,0);
     List<GameObject> go = new ();
 
-    //public List<GameObject> prefabsToBeLoaded = new();
-    //public List<Vector3> loadPositions = new();
-    //public int modelCount;
 
-    
-    //public GameObject prefabToLoad;
-    //public int currentModelIndex = 0;
-
+//Instantiates next model
 public void LoadPrefab(int modelCount){
-    //StartCoroutine(LoadNextModel(prefabToLoad));
-    ModelInstantiatorManager.instance.LoadPrefabsFromName(modelCount);
-    //Instantiate(prefabsToBeLoaded[index], loadPositions[index], quaternion.identity);
-    
+    ModelInstantiatorManager.instance.LoadPrefabsFromName(modelCount);    
 } 
 
-// IEnumerator LoadNextModel(GameObject prefabModel){
-//     yield return null;
-//     Instantiate(prefabModel, loadPos, quaternion.identity);
-// }
+
+//Used to destroy the previous models to free up memory
 public void DestroyPrefab(){
     foreach(GameObject objectToBeDestroyed in GameObject.FindGameObjectsWithTag("3DModel")){
         go.Add(objectToBeDestroyed);
@@ -40,6 +29,8 @@ public void DestroyPrefab(){
     Resources.UnloadUnusedAssets();
     
 }
+
+//Used in Seq 105 to destroy the cloud model
 public void DestroyCloudPrefab(){
     
    foreach(GameObject objectToBeDestroyed in GameObject.FindGameObjectsWithTag("3DModel")){
@@ -51,5 +42,12 @@ public void DestroyCloudPrefab(){
     go.Clear();
     GC.Collect();
     Resources.UnloadUnusedAssets();
+}
+
+//Function for disabling the bounding box that has particle effect (To be used in end where we need user to tap on the logo for restart)
+public void DisableBoundingCanvas(){
+GameObject boundingCanvas = GameObject.FindGameObjectWithTag("BoundingCanvas");
+boundingCanvas.SetActive(false);
+
 }
 }

@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class LogoAnim : MonoBehaviour
 {
     public TextFadeOut logoAnimController;
     public Animator logoAnimator;
 
-    public GameObject quitBtn;
+   // public GameObject quitBtn;
+
+    public UnityEvent eventOnCompletion;
 
 
     
@@ -22,8 +25,8 @@ public class LogoAnim : MonoBehaviour
     }
 
     void OnAnimationCompleteForQuitBtn(){
-        if(quitBtn!= null){
-            quitBtn.SetActive(true);
+        if(eventOnCompletion!= null){
+            eventOnCompletion.Invoke();
         }
     }
     // Update is called once per frame

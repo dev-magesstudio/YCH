@@ -1903,7 +1903,7 @@ Transform:
   m_GameObject: {fileID: 7996562066037716859}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.43, y: -5.21, z: -2.65}
+  m_LocalPosition: {x: 5.73, y: -5.21, z: -2.65}
   m_LocalScale: {x: 80, y: 80, z: 80}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2574,7 +2574,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3fcec938a5fda413bb8a7437c74f9480,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.01
+      value: 5.45
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3fcec938a5fda413bb8a7437c74f9480,
         type: 3}
@@ -2641,6 +2641,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wind Turbine
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3fcec938a5fda413bb8a7437c74f9480,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3264,12 +3269,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 91290ccf87d49e84ebceefcf273a1454,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91290ccf87d49e84ebceefcf273a1454,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91290ccf87d49e84ebceefcf273a1454,
         type: 3}
@@ -3284,7 +3289,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 91290ccf87d49e84ebceefcf273a1454,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91290ccf87d49e84ebceefcf273a1454,
         type: 3}

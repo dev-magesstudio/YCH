@@ -351,7 +351,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logoAnimController: {fileID: 0}
   logoAnimator: {fileID: 248747406716849514}
-  quitBtn: {fileID: 0}
+  eventOnCompletion:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2376804703400317764}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 6671674360991319815}
+        m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
+        m_MethodName: DisableBoundingCanvas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &755283792375039796
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,6 +565,7 @@ GameObject:
   - component: {fileID: 7731010173252948141}
   - component: {fileID: 6866131558806329256}
   - component: {fileID: 3411544410162374564}
+  - component: {fileID: 2376804703400317764}
   - component: {fileID: 5430656511147745990}
   m_Layer: 0
   m_Name: LogoSuperport
@@ -670,7 +697,31 @@ MonoBehaviour:
   duration: 2
   eventOnCompletion:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2311641566656030265}
+        m_TargetAssemblyTypeName: SceneChangeManager, Assembly-CSharp
+        m_MethodName: SwitchToScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6671674360991319815}
+        m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
+        m_MethodName: DestroyPrefab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   audioSource: {fileID: 0}
   effectOnStart: 0
   isLastScene: 0
@@ -713,6 +764,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2376804703400317764}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   eventOnButtonClickWithDelay:
     m_PersistentCalls:
       m_Calls: []
@@ -725,6 +788,21 @@ MonoBehaviour:
   targetScaleMultiplier: 3
   scaleDuration: 2
   exitStateName: 
+--- !u!114 &2376804703400317764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971732094281235363}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829319ebd807049509785674e3b2b982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minScale: 0.95
+  maxScale: 1.05
+  speed: 1.5
 --- !u!65 &5430656511147745990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1373,31 +1451,7 @@ MonoBehaviour:
   shouldBeOpaqueInBeginning: 1
   eventOnFadeOutComplete:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6671674360991319815}
-        m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
-        m_MethodName: DestroyPrefab
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2311641566656030265}
-        m_TargetAssemblyTypeName: SceneChangeManager, Assembly-CSharp
-        m_MethodName: SwitchToScene
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1001 &2429433808175271770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1409,7 +1463,7 @@ PrefabInstance:
     - target: {fileID: 2598465442577661894, guid: 9461467028dda447a90b06ea5baa8681,
         type: 3}
       propertyPath: m_SceneBindings.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2598465442577661894, guid: 9461467028dda447a90b06ea5baa8681,
         type: 3}
@@ -1419,9 +1473,25 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 2598465442577661894, guid: 9461467028dda447a90b06ea5baa8681,
         type: 3}
+      propertyPath: m_SceneBindings.Array.data[5].key
+      value: 
+      objectReference: {fileID: 8063809115165653886, guid: 3a48e61b0cce426499fecc5c15fecfde,
+        type: 2}
+    - target: {fileID: 2598465442577661894, guid: 9461467028dda447a90b06ea5baa8681,
+        type: 3}
       propertyPath: m_SceneBindings.Array.data[4].value
       value: 
       objectReference: {fileID: 611781984848845070}
+    - target: {fileID: 2598465442577661894, guid: 9461467028dda447a90b06ea5baa8681,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[5].value
+      value: 
+      objectReference: {fileID: 3553486602721631628}
+    - target: {fileID: 3589928922042861322, guid: 9461467028dda447a90b06ea5baa8681,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5536490633640155248, guid: 9461467028dda447a90b06ea5baa8681,
         type: 3}
       propertyPath: m_Events.m_Events.Array.size
@@ -1573,6 +1643,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9461467028dda447a90b06ea5baa8681, type: 3}
+--- !u!95 &3553486602721631628 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1218100629747634902, guid: 9461467028dda447a90b06ea5baa8681,
+    type: 3}
+  m_PrefabInstance: {fileID: 2429433808175271770}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6463060621703193015 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8648725795557322477, guid: 9461467028dda447a90b06ea5baa8681,

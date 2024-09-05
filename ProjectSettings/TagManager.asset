@@ -6,6 +6,7 @@ TagManager:
   tags:
   - 3DModel
   - BackgroundSound
+  - BoundingCanvas
   layers:
   - Default
   - TransparentFX

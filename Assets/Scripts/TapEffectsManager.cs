@@ -8,27 +8,27 @@ using TouchPhase = UnityEngine.InputSystem.TouchPhase;
 using PolySpatial.Samples;
 
 
-public class TapEffectsManager : HubButton
+public class TapEffectsManager : MonoBehaviour
 {
     public UnityEvent eventOnButtonClick;
     public UnityEvent eventOnButtonRelease;
     public AudioSource buttonClickAudio;
 
-    private bool isPressed = false;
-     public override void Press()
-    {
-        if (buttonClickAudio != null)
-        {
-            buttonClickAudio.Play();
-        }
+   // private bool isPressed = false;
+    //  public override void Press()
+    // {
+    //     if (buttonClickAudio != null)
+    //     {
+    //         buttonClickAudio.Play();
+    //     }
 
-        if (eventOnButtonClick != null)
-        {
-            eventOnButtonClick.Invoke();
-        }
+    //     if (eventOnButtonClick != null)
+    //     {
+    //         eventOnButtonClick.Invoke();
+    //     }
 
-        isPressed = true;
-    }
+    //     isPressed = true;
+    // }
     
      void OnEnable()
     {
@@ -37,28 +37,48 @@ public class TapEffectsManager : HubButton
 
     void Update()
     {
-        if(isPressed){
-            var activeTouches = Touch.activeTouches;
+        // if(isPressed){
+        //     var activeTouches = Touch.activeTouches;
 
-        if (activeTouches.Count > 0)
-        {
-            SpatialPointerState primaryTouchData = EnhancedSpatialPointerSupport.GetPointerState(activeTouches[0]);
+        // if (activeTouches.Count > 0)
+        // {
+        //     SpatialPointerState primaryTouchData = EnhancedSpatialPointerSupport.GetPointerState(activeTouches[0]);
 
-             if (primaryTouchData.Kind == SpatialPointerKind.Touch)
-              { 
-                if(activeTouches[0].phase == TouchPhase.Moved || activeTouches[0].phase == TouchPhase.Stationary){
-                    eventOnButtonClick.Invoke();
-                }
-                else if(activeTouches[0].phase == TouchPhase.Ended){
-                    if (eventOnButtonRelease != null)
-                {
-                    eventOnButtonRelease.Invoke();
-                }
-                isPressed = false;
+        //      if (primaryTouchData.Kind == SpatialPointerKind.Touch)
+        //       { 
+        //         if(activeTouches[0].phase == TouchPhase.Moved || activeTouches[0].phase == TouchPhase.Stationary){
+        //             eventOnButtonClick.Invoke();
+        //         }
+        //         else if(activeTouches[0].phase == TouchPhase.Ended){
+        //             if (eventOnButtonRelease != null)
+        //         {
+        //             eventOnButtonRelease.Invoke();
+        //         }
+        //         isPressed = false;
                    
-                }
+        //         }
+        //      }
+        // }
+        // }
+
+        foreach(var touch in Touch.activeTouches){
+            var spatialPointerState = EnhancedSpatialPointerSupport.GetPointerState(touch);
+
+            //Ignore indirect or direct pinch states
+            if (spatialPointerState.Kind == SpatialPointerKind.DirectPinch || spatialPointerState.Kind == SpatialPointerKind.IndirectPinch)
+                    continue;
+
+             switch (spatialPointerState.phase){
+                case SpatialPointerPhase.Moved:
+                eventOnButtonClick.Invoke();
+                break;
+
+                 case SpatialPointerPhase.Ended:
+                 eventOnButtonRelease.Invoke();
+                break;
              }
-        }
+
+            
         }
         
     
