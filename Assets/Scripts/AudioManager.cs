@@ -19,7 +19,6 @@ public class AudioManager : MonoBehaviour
     }
 
     public void PlaySound(){
-        //audioSource.volume = 0.8f;
         audioSource.Play();
     }
 

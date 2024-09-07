@@ -14,7 +14,7 @@ public class TapEffectsManager : MonoBehaviour
     public UnityEvent eventOnButtonRelease;
     public AudioSource buttonClickAudio;
 
-   // private bool isPressed = false;
+    // private bool isPressed = false;
     //  public override void Press()
     // {
     //     if (buttonClickAudio != null)
@@ -29,8 +29,8 @@ public class TapEffectsManager : MonoBehaviour
 
     //     isPressed = true;
     // }
-    
-     void OnEnable()
+
+    void OnEnable()
     {
         EnhancedTouchSupport.Enable();
     }
@@ -55,33 +55,35 @@ public class TapEffectsManager : MonoBehaviour
         //             eventOnButtonRelease.Invoke();
         //         }
         //         isPressed = false;
-                   
+
         //         }
         //      }
         // }
         // }
 
-        foreach(var touch in Touch.activeTouches){
+        foreach (var touch in Touch.activeTouches)
+        {
             var spatialPointerState = EnhancedSpatialPointerSupport.GetPointerState(touch);
 
             //Ignore indirect or direct pinch states
             if (spatialPointerState.Kind == SpatialPointerKind.DirectPinch || spatialPointerState.Kind == SpatialPointerKind.IndirectPinch)
-                    continue;
+                continue;
 
-             switch (spatialPointerState.phase){
+            switch (spatialPointerState.phase)
+            {
                 case SpatialPointerPhase.Moved:
-                eventOnButtonClick.Invoke();
-                break;
+                    eventOnButtonClick.Invoke();
+                    break;
 
-                 case SpatialPointerPhase.Ended:
-                 eventOnButtonRelease.Invoke();
-                break;
-             }
+                case SpatialPointerPhase.Ended:
+                    eventOnButtonRelease.Invoke();
+                    break;
+            }
 
-            
+
         }
-        
-    
+
+
     }
-    
+
 }

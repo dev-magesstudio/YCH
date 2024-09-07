@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public class TextFadeIn : MonoBehaviour
 {
-     public Material[] targetMaterials;  // Assign your materials in the Inspector
+    public Material[] targetMaterials;  // Assign your materials in the Inspector
     public float duration = 2.0f;       // Duration of the fade-in
 
     private float timeElapsed = 0.0f;
@@ -38,43 +38,46 @@ public class TextFadeIn : MonoBehaviour
 
 
         }
-         isFadingIn = true;
+        isFadingIn = true;
 
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(isFadingIn){
+        if (isFadingIn)
+        {
             //Text Fade In
             if (timeElapsed < duration)
+            {
+                timeElapsed += Time.deltaTime;
+                float percentageComplete = timeElapsed / duration;
+
+                // Interpolate the alpha value for each material
+                for (int i = 0; i < targetMaterials.Length; i++)
                 {
-                    timeElapsed += Time.deltaTime;
-                    float percentageComplete = timeElapsed / duration;
+                    Color newColor = Color.Lerp(endColors[i], startColors[i], percentageComplete);
+                    targetMaterials[i].color = newColor;
+                }
 
-                    // Interpolate the alpha value for each material
-                    for (int i = 0; i < targetMaterials.Length; i++)
+                // Stop fading when complete
+                if (percentageComplete >= 1.0f)
+                {
+                    isFadingIn = false;
+                    if (eventOnCompletion != null)
                     {
-                        Color newColor = Color.Lerp(endColors[i], startColors[i], percentageComplete);
-                        targetMaterials[i].color = newColor;
-                    }
+                        StartCoroutine(CallUnityEvent());
 
-                    // Stop fading when complete
-                    if (percentageComplete >= 1.0f)
-                    {
-                        isFadingIn = false;
-                        if(eventOnCompletion!=null){
-                            StartCoroutine(CallUnityEvent());
-                           
-                        }
                     }
                 }
+            }
         }
-        
+
     }
 
-    IEnumerator CallUnityEvent(){
+    IEnumerator CallUnityEvent()
+    {
         yield return new WaitForSeconds(invokeAfterTime);
         eventOnCompletion.Invoke();
     }

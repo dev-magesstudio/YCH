@@ -99,9 +99,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'EXIT
-
-'
+  m_text: RESTART
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed,
@@ -261,6 +259,7 @@ GameObject:
   - component: {fileID: 248747406716849514}
   - component: {fileID: 818958424706188472}
   - component: {fileID: 2414381235032934315}
+  - component: {fileID: 9220322393458994723}
   m_Layer: 0
   m_Name: Seq_101_2_Logo_PUB
   m_TagString: Untagged
@@ -325,10 +324,46 @@ MonoBehaviour:
   eventOnCompletion:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 248747406716849514}
+      - m_Target: {fileID: 9220322393458994723}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 755283792375039796}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 755283792375039796}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 6671674360991319815}
+        m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
+        m_MethodName: DisableBoundingCanvas
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -345,7 +380,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611781984848845070}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d172104b9ef8348a3a11b36e342adf0e, type: 3}
   m_Name: 
@@ -355,7 +390,7 @@ MonoBehaviour:
   eventOnCompletion:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2376804703400317764}
+      - m_Target: {fileID: 9220322393458994723}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
@@ -379,6 +414,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &9220322393458994723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611781984848845070}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829319ebd807049509785674e3b2b982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minScale: 0.9
+  maxScale: 1.1
+  speed: 2
 --- !u!1 &755283792375039796
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,7 +724,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971732094281235363}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb5737ea9b2524b05ab692bf4611a16e, type: 3}
   m_Name: 
@@ -733,7 +783,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971732094281235363}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 94735504eab5c44afa60949c5009d900, type: 3}
   m_Name: 
@@ -821,7 +871,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.0069687217, y: 0.00038719663, z: 0.005666922}
   m_Center: {x: 0.000024133837, y: -0.0000000017733175, z: 0.0069495523}
@@ -1142,9 +1192,33 @@ MonoBehaviour:
   eventOnButtonClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3723660272484025487}
-        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: QuitApplication
+      - m_Target: {fileID: 755283792375039796}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1893118678002580995}
+        m_TargetAssemblyTypeName: TextFadeOut, Assembly-CSharp
+        m_MethodName: StartFadeOut
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6866131558806329256}
+        m_TargetAssemblyTypeName: LogoShaderController, Assembly-CSharp
+        m_MethodName: StartEffect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -31,7 +31,7 @@ public class ButtonManager : HubButton
     public string exitStateName;
     private bool isStateExited = false;
 
-//#if(UNITY_EDITOR)
+    //#if(UNITY_EDITOR)
     // public override void Press(){
 
     //     if(buttonClickAudio != null){
@@ -49,63 +49,72 @@ public class ButtonManager : HubButton
     //        drone.SetBool(parameterName, true);
     //     }
     // }
-   // #endif
+    // #endif
 
 
-    IEnumerator InvokeEventAfterDelay(){
+    IEnumerator InvokeEventAfterDelay()
+    {
         yield return new WaitForSeconds(invokeDuration);
         eventOnButtonClickWithDelay.Invoke();
 
-        }
+    }
 
-    
-    public void QuitApplication(){
+
+    public void QuitApplication()
+    {
         Application.Quit();
     }
 
-     void OnEnable()
+    void OnEnable()
     {
         EnhancedTouchSupport.Enable();
     }
 
-    void Update(){
-         foreach(var touch in Touch.activeTouches){
+    void Update()
+    {
+        foreach (var touch in Touch.activeTouches)
+        {
             var spatialPointerState = EnhancedSpatialPointerSupport.GetPointerState(touch);
 
             //Ignore indirect or direct pinch states
             if (spatialPointerState.Kind == SpatialPointerKind.DirectPinch || spatialPointerState.Kind == SpatialPointerKind.IndirectPinch)
-                    continue;
+                continue;
 
-             switch (spatialPointerState.phase){
+            switch (spatialPointerState.phase)
+            {
 
                 case SpatialPointerPhase.Began:
                 case SpatialPointerPhase.Moved:
-                if(buttonClickAudio != null){
+                    if (buttonClickAudio != null)
+                    {
                         buttonClickAudio.Play();
-                     }
-                if(eventOnButtonClickWithDelay!=null){
-                StartCoroutine(InvokeEventAfterDelay());
-                }
+                    }
+                    if (eventOnButtonClickWithDelay != null)
+                    {
+                        StartCoroutine(InvokeEventAfterDelay());
+                    }
 
-                if(eventOnButtonClick!=null){
-                eventOnButtonClick.Invoke();
-                }
+                    if (eventOnButtonClick != null)
+                    {
+                        eventOnButtonClick.Invoke();
+                    }
 
-                if(drone!=null){
-                drone.SetBool(parameterName, true);
-                }
-                break;
+                    if (drone != null)
+                    {
+                        drone.SetBool(parameterName, true);
+                    }
+                    break;
 
-                //  case SpatialPointerPhase.Ended:
-                // // eventOnButtonRelease.Invoke();
-                // break;
-             }
+                    //  case SpatialPointerPhase.Ended:
+                    // // eventOnButtonRelease.Invoke();
+                    // break;
+            }
 
-            
+
         }
     }
 
 
 }
-   
+
 

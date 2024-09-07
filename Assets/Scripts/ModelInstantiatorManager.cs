@@ -11,27 +11,31 @@ public class ModelInstantiatorManager : MonoBehaviour
 
     public List<string> prefabsToLoadStrings = new();
 
-    void Awake(){
-        if(instance != this && instance != null){
+    void Awake()
+    {
+        if (instance != this && instance != null)
+        {
             Destroy(this.gameObject);
         }
-        else{
+        else
+        {
             instance = this;
         }
     }
-     public List<GameObject> prefabsToBeLoaded = new();
+    public List<GameObject> prefabsToBeLoaded = new();
     public List<Vector3> loadPositions = new();
-    public Vector3 loadPos = new Vector3(0,0.5f,2);
-    public void LoadPrefab(int index){
-    //StartCoroutine(LoadNextModel(prefabToLoad));
-    Instantiate(prefabsToBeLoaded[index], loadPositions[index], quaternion.identity);
-    //Resources.UnloadUnusedAssets();
-    //EditorUtility.UnloadUnusedAssetsImmediate();
-    
-} 
+    public Vector3 loadPos = new Vector3(0, 0.5f, 2);
 
-public void LoadPrefabsFromName(int index){
-    GameObject go = Resources.Load<GameObject>("Models/" + prefabsToLoadStrings[index]);
-    Instantiate(go);
-}
+    //Function that loads the prefab -- Not in use as of now!  
+    public void LoadPrefab(int index)
+    {
+        Instantiate(prefabsToBeLoaded[index], loadPositions[index], quaternion.identity);
+    }
+
+    //Memory Management Used - Load Prefab from Resources and then name of the prefab
+    public void LoadPrefabsFromName(int index)
+    {
+        GameObject go = Resources.Load<GameObject>("Models/" + prefabsToLoadStrings[index]);
+        Instantiate(go);
+    }
 }
