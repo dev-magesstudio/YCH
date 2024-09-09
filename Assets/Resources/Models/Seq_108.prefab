@@ -199,7 +199,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 158511729237655932}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -208,7 +208,7 @@ Transform:
   - {fileID: 231562465246593972}
   - {fileID: 7224546152849412989}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &3801060610909779054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,7 +275,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611781984848845070}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
   m_LocalPosition: {x: -0, y: 2.15, z: 0}
   m_LocalScale: {x: 26.458609, y: 26.458609, z: 26.458609}
   m_ConstrainProportionsScale: 0
@@ -283,7 +283,7 @@ Transform:
   - {fileID: 3077388413298902135}
   - {fileID: 2495699483924203941}
   m_Father: {fileID: 8602740732860260379}
-  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: -90}
 --- !u!95 &248747406716849514
 Animator:
   serializedVersion: 5
@@ -324,46 +324,10 @@ MonoBehaviour:
   eventOnCompletion:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 9220322393458994723}
+      - m_Target: {fileID: 248747406716849514}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 755283792375039796}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 755283792375039796}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 6671674360991319815}
-        m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
-        m_MethodName: DisableBoundingCanvas
-        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -380,7 +344,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611781984848845070}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d172104b9ef8348a3a11b36e342adf0e, type: 3}
   m_Name: 
@@ -390,10 +354,10 @@ MonoBehaviour:
   eventOnCompletion:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 9220322393458994723}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
+      - m_Target: {fileID: 6671674360991319815}
+        m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
+        m_MethodName: DisableBoundingCanvas
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -402,9 +366,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 6671674360991319815}
-        m_TargetAssemblyTypeName: InstantiatingModel, Assembly-CSharp
-        m_MethodName: DisableBoundingCanvas
+      - m_Target: {fileID: 6866131558806329256}
+        m_TargetAssemblyTypeName: LogoShaderController, Assembly-CSharp
+        m_MethodName: StartEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1893118678002580995}
+        m_TargetAssemblyTypeName: TextFadeOut, Assembly-CSharp
+        m_MethodName: StartFadeOut
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -455,7 +431,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755283792375039796}
-  m_LocalRotation: {x: 0.3420201, y: -0, z: -0, w: 0.9396926}
+  m_LocalRotation: {x: 0.24184473, y: -0.66446304, z: 0.24184473, w: 0.66446304}
   m_LocalPosition: {x: 0, y: 0, z: -0.14499885}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
@@ -464,7 +440,7 @@ RectTransform:
   - {fileID: 1479623296290392892}
   - {fileID: 4721587652841667636}
   m_Father: {fileID: 8602740732860260379}
-  m_LocalEulerAnglesHint: {x: 40, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 40, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 1.943}
@@ -1535,6 +1511,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8602740732860260379}
     m_Modifications:
+    - target: {fileID: 2039535395573900318, guid: 9461467028dda447a90b06ea5baa8681,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.007326121
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039535395573900318, guid: 9461467028dda447a90b06ea5baa8681,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.001550094
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039535395573900318, guid: 9461467028dda447a90b06ea5baa8681,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.001990801
+      objectReference: {fileID: 0}
     - target: {fileID: 2598465442577661894, guid: 9461467028dda447a90b06ea5baa8681,
         type: 3}
       propertyPath: m_SceneBindings.Array.size

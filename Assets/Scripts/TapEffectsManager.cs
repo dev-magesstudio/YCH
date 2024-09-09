@@ -71,11 +71,13 @@ public class TapEffectsManager : MonoBehaviour
 
             switch (spatialPointerState.phase)
             {
+                case SpatialPointerPhase.Began:
                 case SpatialPointerPhase.Moved:
                     eventOnButtonClick.Invoke();
                     break;
 
                 case SpatialPointerPhase.Ended:
+                case SpatialPointerPhase.Cancelled:
                     eventOnButtonRelease.Invoke();
                     break;
             }
