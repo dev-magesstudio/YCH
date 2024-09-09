@@ -187,6 +187,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: TTSmall
+    second: {fileID: 2100000, guid: fcf16d03769d2e040880d9669f5da708, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TTSmall_SLP
+    second: {fileID: 2100000, guid: 00a299f0289135f4394d9b5840b69576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: TreeSP_A
     second: {fileID: 2100000, guid: a38cf31a95678b045add20d85725204f, type: 2}
   - first:
